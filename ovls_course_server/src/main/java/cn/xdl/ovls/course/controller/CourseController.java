@@ -2,6 +2,7 @@ package cn.xdl.ovls.course.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -27,4 +28,12 @@ public class CourseController {
 		System.out.println(result);
 		return result;
 	}
+	
+	@RequestMapping(value="/{id}",method=RequestMethod.GET)
+	public ResponseResult loadCourse(@PathVariable("id") int id){//参数变量 /course/1
+		ResponseResult result = courseService.loadCourseDetailChapters(id);
+		System.out.println(result);
+		return result;
+	}
+	
 }

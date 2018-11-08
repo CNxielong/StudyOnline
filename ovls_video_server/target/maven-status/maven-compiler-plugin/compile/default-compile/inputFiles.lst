@@ -1,0 +1,12 @@
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\ovls\video\util\AjaxDomainFilter.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\ovls\video\druid\DruidConfig.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\controller\VideoController.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\dao\VideoSqlProvider.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\service\VideoService.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\VideoServerBootApplicaiton.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\entity\ResponseResult.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\dao\VideoMapper.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\service\VideoServiceImpl.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\ovls\video\druid\DruidStatFilter.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\boot\video\entity\Video.java
+D:\OVLS\ovls_video_server\src\main\java\cn\xdl\ovls\video\druid\DruidStatViewServlet.java

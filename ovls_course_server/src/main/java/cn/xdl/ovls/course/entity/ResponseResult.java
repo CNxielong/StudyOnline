@@ -43,7 +43,7 @@ public class ResponseResult implements Serializable{
 	}
 	/**
 	 * 设置处理状态
-	 * @param status 保存状态  1:成功  2:用户不存在  3:密码不正确
+	 * @param status 保存状态  1:成功  2:数据不存在  3:登录密码不正确
 	 */
 	public void setStatus(int status) {
 		this.status = status;

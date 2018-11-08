@@ -15,8 +15,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  *
  */
 @SpringBootApplication
-@ServletComponentScan //引入组件扫描
 @MapperScan(basePackages="cn.xdl.ovls.course.dao")
+@ServletComponentScan //引入组件扫描
 public class CourseServiceBootApplication {
 
 	public static void main(String[] args) {

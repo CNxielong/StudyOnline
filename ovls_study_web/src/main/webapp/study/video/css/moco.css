@@ -1507,7 +1507,7 @@ textarea.moco-input-lg, select[multiple].moco-input-lg {
 	top: 4px;
 	height: 21px;
 	width: 20px;
-	background-image: url(/static/img/u/user-info-icon-little.png);
+	background-image: url(/study/static/img/u/user-info-icon-little.png);
 	background-repeat: no-repeat;
 	position: relative
 }
@@ -1516,7 +1516,7 @@ textarea.moco-input-lg, select[multiple].moco-input-lg {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
-	background: url('/static/img/u/gender.png') no-repeat;
+	background: url('/study/static/img/u/gender.png') no-repeat;
 	vertical-align: -3px
 }
 
@@ -1529,7 +1529,7 @@ textarea.moco-input-lg, select[multiple].moco-input-lg {
 }
 
 .moco-usercard-secret {
-	background: url('/static/img/u/secret.png') no-repeat
+	background: url('/study/static/img/u/secret.png') no-repeat
 }
 
 .moco-usercard-mc-btn {

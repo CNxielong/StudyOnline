@@ -36,4 +36,36 @@ public class CourseServiceImpl implements CourseService {
 		return result;
 	}
 
+
+	@Override
+	public ResponseResult loadCourse(int id) {
+		Course course = courseMapper.selectByPrimaryKey(id);
+		ResponseResult result = new ResponseResult();
+		if(course == null){//如果没取到数据
+			result.setStatus(2);//数据不存在
+			result.setMsg("未找到记录");
+		}else{
+			result.setStatus(1);//数据存在
+			result.setMsg("查找成功");
+			result.setData(course);
+		}
+		return result;
+	}
+
+
+	@Override
+	public ResponseResult loadCourseDetailChapters(int id) {
+		Course course = courseMapper.selectDetailChaptersByPrimaryKey(id);
+		ResponseResult result = new ResponseResult();
+		if(course == null){//如果没取到数据
+			result.setStatus(2);//数据不存在
+			result.setMsg("未找到记录");
+		}else{
+			result.setStatus(1);//数据存在
+			result.setMsg("查找成功");
+			result.setData(course);
+		}
+		return result;
+	}
+
 }

@@ -678,7 +678,7 @@ a:active, a:hover {
 	display: block;
 	height: 60px;
 	width: 140px;
-	background: url(/static/img/common/logo.png?t=2.3) center center
+	background: url(/study/static/img/common/logo.png?t=2.3) center center
 		no-repeat;
 	text-indent: 100%;
 	overflow: hidden
@@ -714,7 +714,7 @@ a:active, a:hover {
 	top: 4px;
 	left: 20px;
 	cursor: pointer;
-	background: url(/static/img/nlogin.png) no-repeat;
+	background: url(/study/static/img/nlogin.png) no-repeat;
 	transition: transform .2s;
 	-webkit-transition: transform .2s;
 	-moz-transition: transform .2s;
@@ -764,14 +764,14 @@ a:active, a:hover {
 	top: -10px;
 	width: 16px;
 	height: 16px;
-	background: url(/static/img/common/new.png) no-repeat
+	background: url(/study/static/img/common/new.png) no-repeat
 }
 
 .header-app-icon {
 	display: inline-block;
 	width: 11px;
 	height: 16px;
-	background: url(/static/img/head-app-icon.png) no-repeat;
+	background: url(/study/static/img/head-app-icon.png) no-repeat;
 	vertical-align: -3px;
 	margin-right: 5px;
 	transition: .3s;
@@ -1164,7 +1164,7 @@ a:active, a:hover {
 .set_btn img {
 	border-radius: 50%;
 	display: inline-block;
-	background: url(/static/img/menu_icon.png) no-repeat
+	background: url(/study/static/img/menu_icon.png) no-repeat
 }
 
 #nav_list {
@@ -1182,7 +1182,7 @@ a:active, a:hover {
 	height: 39px;
 	line-height: 39px;
 	font-size: 14px;
-	background-image: url(/static/img/menu_icon.png?t=10);
+	background-image: url(/study/static/img/menu_icon.png?t=10);
 	background-repeat: no-repeat;
 	display: block;
 	color: #fff;
@@ -1232,7 +1232,7 @@ a:active, a:hover {
 .myspace_remind {
 	width: 10px;
 	height: 10px;
-	background: url(/static/img/space-remind.png) no-repeat;
+	background: url(/study/static/img/space-remind.png) no-repeat;
 	top: 10px;
 	right: 10px
 }
@@ -1262,7 +1262,7 @@ a:active, a:hover {
 .footer_logo {
 	display: none;
 	float: left;
-	background: url(/static/img/common/footer-sprite.png) 0 -230px no-repeat;
+	background: url(study/study/static/img/common/footer-sprite.png) 0 -230px no-repeat;
 	height: 40px;
 	width: 120px;
 	margin: 0 20px
@@ -1282,7 +1282,7 @@ a:active, a:hover {
 	position: relative;
 	width: 32px;
 	height: 32px;
-	background-image: url(/static/img/common/footer-sprite.png);
+	background-image: url(/study/static/img/common/footer-sprite.png);
 	background-repeat: no-repeat;
 	margin: 3px 6px 0;
 	opacity: .5;
@@ -1305,7 +1305,7 @@ a:active, a:hover {
 	height: 220px;
 	left: -69px;
 	bottom: 35px;
-	background: url(/static/img/common/footer-sprite.png?1) no-repeat
+	background: url(/study/static/img/common/footer-sprite.png?1) no-repeat
 }
 
 .followus .followus-weixin {
@@ -1473,7 +1473,7 @@ select:focus {
 
 a.btn-add-collection {
 	display: block;
-	background: url(/static/img/course/new_add_collection.png) 46px top
+	background: url(/study/static/img/course/new_add_collection.png) 46px top
 		no-repeat;
 	height: 32px;
 	color: #909b9e;
@@ -1623,7 +1623,7 @@ progress::-webkit-progress-value {
 	-webkit-transform-origin: 100% 95%;
 	-ms-transform-origin: 100% 95%;
 	transform-origin: 100% 95%;
-	background: url(/static/img/common/elevator.png?t=2) 0 -220px no-repeat
+	background: url(/study/static/img/common/elevator.png?t=2) 0 -220px no-repeat
 }
 
 .elevator .elevator-app:hover .elevator-app-box {
@@ -1655,7 +1655,7 @@ progress::-webkit-progress-value {
 	-webkit-transform-origin: 100% 95%;
 	-ms-transform-origin: 100% 95%;
 	transform-origin: 100% 95%;
-	background: url(/static/img/common/elevator.png?t=2) no-repeat
+	background: url(/study/static/img/common/elevator.png?t=2) no-repeat
 }
 
 .elevator .elevator-weixin:hover .elevator-weixin-box {
@@ -1702,7 +1702,7 @@ input::-moz-focus-inner {
 	min-width: 800px;
 	height: 30px;
 	line-height: 30px;
-	background: url(/static/img/iebg.gif) repeat-x;
+	background: url(/study/static/img/iebg.gif) repeat-x;
 	z-index: 999999
 }
 
@@ -1717,7 +1717,7 @@ input::-moz-focus-inner {
 	height: 14px;
 	vertical-align: -2px;
 	margin-right: 5px;
-	background: url(/static/img/iefixed-sprite.png) no-repeat
+	background: url(/study/static/img/iefixed-sprite.png) no-repeat
 }
 
 .cpt-ct a {
@@ -1766,7 +1766,7 @@ input::-moz-focus-inner {
 	height: 8px;
 	width: 8px;
 	vertical-align: 1px;
-	background: url(/static/img/iefixed-sprite.png) 0 -24px no-repeat
+	background: url(/study/static/img/iefixed-sprite.png) 0 -24px no-repeat
 }
 
 .cpt-close:hover i {
@@ -1788,7 +1788,7 @@ input::-moz-focus-inner {
 	top: -11px;
 	width: 19px;
 	height: 11px;
-	background: url(/static/img/dot_usercard.png)
+	background: url(/study/static/img/dot_usercard.png)
 }
 
 .layer-usercard-header {
@@ -2324,7 +2324,7 @@ select[multiple].ipt, textarea.ipt {
 	position: absolute;
 	top: 0;
 	right: 8px;
-	/* background: url(/static/img/common/coupon-icon.png) no-repeat */
+	/* background: url(/study/static/img/common/coupon-icon.png) no-repeat */
 }
 
 .g-user-card .user-center-box ul li:nth-child(2n) {
@@ -2885,7 +2885,7 @@ select[multiple].ipt, textarea.ipt {
 		border-radius: 22px;
 		vertical-align: middle;
 		display: inline-block;
-		background: url(/static/img/menu_icon.png) no-repeat
+		background: url(/study/static/img/menu_icon.png) no-repeat
 	}
 	body.slide-left .nav-item {
 		display: block
@@ -2900,13 +2900,13 @@ select[multiple].ipt, textarea.ipt {
 
  /* @font-face {
 	font-family: icomoon;
-	src: url(/static/fonts/icomoon/fonts/icomoon.eot?d8493nx);
-	src: url(/static/fonts/icomoon/fonts/icomoon.eot?d8493nx#iefix)
+	src: url(/study/static/fonts/icomoon/fonts/icomoon.eot?d8493nx);
+	src: url(/study/static/fonts/icomoon/fonts/icomoon.eot?d8493nx#iefix)
 		format('embedded-opentype'),
-		url(/static/fonts/icomoon/fonts/icomoon.ttf?d8493nx)
+		url(/study/static/fonts/icomoon/fonts/icomoon.ttf?d8493nx)
 		format('truetype'),
-		url(/static/fonts/icomoon/fonts/icomoon.woff?d8493nx) format('woff'),
-		url(/static/fonts/icomoon/fonts/icomoon.svg?d8493nx#icomoon)
+		url(/study/static/fonts/icomoon/fonts/icomoon.woff?d8493nx) format('woff'),
+		url(/study/static/fonts/icomoon/fonts/icomoon.svg?d8493nx#icomoon)
 		format('svg');
 	font-weight: 400;
 	font-style: normal
@@ -3386,12 +3386,12 @@ select[multiple].ipt, textarea.ipt {
 
 @font-face {
 	font-family: imv2;
-	src: url(/static/fonts/imv2/fonts/imv2.eot?5yqf6o6);
-	src: url(/static/fonts/imv2/fonts/imv2.eot?5yqf6o6#iefix)
+	src: url(/study/static/fonts/imv2/fonts/imv2.eot?5yqf6o6);
+	src: url(/study/static/fonts/imv2/fonts/imv2.eot?5yqf6o6#iefix)
 		format('embedded-opentype'),
-		url(/static/fonts/imv2/fonts/imv2.ttf?5yqf6o6) format('truetype'),
-		url(/static/fonts/imv2/fonts/imv2.woff?5yqf6o6) format('woff'),
-		url(/static/fonts/imv2/fonts/imv2.svg?5yqf6o6#imv2) format('svg');
+		url(/study/static/fonts/imv2/fonts/imv2.ttf?5yqf6o6) format('truetype'),
+		url(/study/static/fonts/imv2/fonts/imv2.woff?5yqf6o6) format('woff'),
+		url(/study/static/fonts/imv2/fonts/imv2.svg?5yqf6o6#imv2) format('svg');
 	font-weight: 400;
 	font-style: normal
 }
@@ -4111,7 +4111,7 @@ a.list-praise em {
 }
 
 .icon_good {
-	background: url(/static/img/icon_notelist.png) left top no-repeat
+	background: url(/study/static/img/icon_notelist.png) left top no-repeat
 }
 
 .icon_good.on {
@@ -4876,7 +4876,7 @@ em.issueBtn:hover {
 
 .quesdetail a.onactive {
 	border: 1px solid #39b94e;
-	background: url(/static/img/bbs.png) 108px -280px no-repeat #ebf8ed;
+	background: url(/study/static/img/bbs.png) 108px -280px no-repeat #ebf8ed;
 	color: #39b94e
 }
 
@@ -4903,7 +4903,7 @@ em.issueBtn:hover {
 }
 
 .errortip {
-	background: url(/static/img/bbs.png) -1px -336px no-repeat;
+	background: url(/study/static/img/bbs.png) -1px -336px no-repeat;
 	clear: both;
 	padding-left: 15px;
 	margin: 9px 0 0;
@@ -5012,12 +5012,12 @@ em.issueBtn:hover {
 	font-size: 16px;
 	font-style: normal;
 	margin: 0 0 20px;
-	background: url(/static/img/icon_add.png) 26px 15px no-repeat #39b94e;
+	background: url(/study/static/img/icon_add.png) 26px 15px no-repeat #39b94e;
 	width: inherit
 }
 
 #create_wiki:hover {
-	background: url(/static/img/icon_add.png) 26px 15px no-repeat #33a646
+	background: url(/study/static/img/icon_add.png) 26px 15px no-repeat #33a646
 }
 
 .wiki-time {
@@ -5560,7 +5560,7 @@ em.issueBtn:hover {
 }
 
 .answerlist span.makesure {
-	background: url(/static/img/ok.png) no-repeat;
+	background: url(/study/static/img/ok.png) no-repeat;
 	width: 25px;
 	height: 24px;
 	position: absolute;
@@ -5622,7 +5622,7 @@ em.issueBtn:hover {
 	width: 140px;
 	height: 50px;
 	cursor: pointer;
-	background: url(/static/images/code-discus-icon.png) no-repeat #a39ca9
+	background: url(/study/static/images/code-discus-icon.png) no-repeat #a39ca9
 }
 
 .disscus-code-icon:hover {
@@ -5748,7 +5748,7 @@ em.issueBtn:hover {
 }
 
 #bdshare .bds_more {
-	background: url(/static/img/share.png) no-repeat !important;
+	background: url(/study/static/img/share.png) no-repeat !important;
 	width: 24px !important;
 	height: 22px !important;
 	padding: 0
@@ -5803,7 +5803,7 @@ em.issueBtn:hover {
 }
 
 .videohead a.chaptername span em {
-	background: url(/static/img/common_studyicon.png) no-repeat;
+	background: url(/study/static/img/common_studyicon.png) no-repeat;
 	display: inline-block;
 	width: 16px;
 	height: 12px;
@@ -5858,7 +5858,7 @@ em.issueBtn:hover {
 }
 
 #sectionlist ul li span em {
-	background: url(/static/img/learnicon.png) 0 -41px no-repeat;
+	background: url(/study/static/img/learnicon.png) 0 -41px no-repeat;
 	width: 20px;
 	margin-right: 8px
 }
@@ -5876,7 +5876,7 @@ em.issueBtn:hover {
 }
 
 .detaillist li a i {
-	background: url(/static/img/learnicon.png) 0 -321px no-repeat;
+	background: url(/study/static/img/learnicon.png) 0 -321px no-repeat;
 	float: right;
 	width: 24px;
 	margin-right: 30px
@@ -5889,15 +5889,15 @@ em.issueBtn:hover {
 }
 
 .detaillist li a i.do-study {
-	background: url(/static/img/finishicon.png) 0 8px no-repeat
+	background: url(/study/static/img/finishicon.png) 0 8px no-repeat
 }
 
 .detaillist li a i.has-study {
-	background: url(/static/img/learnicon.png) 0 -279px no-repeat
+	background: url(/study/static/img/learnicon.png) 0 -279px no-repeat
 }
 
 .detaillist li a i.finish-study {
-	background: url(/static/img/learnicon.png) 0 -239px no-repeat
+	background: url(/study/static/img/learnicon.png) 0 -239px no-repeat
 }
 
 #sectionlist .detaillist li a {
@@ -5915,15 +5915,15 @@ em.issueBtn:hover {
 }
 
 #sectionlist .detaillist li a.studyvideo {
-	background: url(/static/img/learnicon.png) 50px -127px no-repeat
+	background: url(/study/static/img/learnicon.png) 50px -127px no-repeat
 }
 
 #sectionlist .detaillist li a.practise {
-	background: url(/static/img/learnicon.png) 50px -163px no-repeat
+	background: url(/study/static/img/learnicon.png) 50px -163px no-repeat
 }
 
 #sectionlist .detaillist li a.programme {
-	background: url(/static/img/learnicon.png) 50px -200px no-repeat
+	background: url(/study/static/img/learnicon.png) 50px -200px no-repeat
 }
 
 #login-area {
@@ -5972,7 +5972,7 @@ em.issueBtn:hover {
 }
 
 .submenulist li.video em {
-	background: url(/static/img/chaptersection.png) 0 -27px no-repeat
+	background: url(/study/static/img/chaptersection.png) 0 -27px no-repeat
 }
 
 .submenulist li.ceping a:hover, .submenulist li.code a:hover,
@@ -5981,11 +5981,11 @@ em.issueBtn:hover {
 }
 
 .submenulist li.code em {
-	background: url(/static/img/chaptersection.png) 0 -54px no-repeat
+	background: url(/study/static/img/chaptersection.png) 0 -54px no-repeat
 }
 
 .submenulist li.ceping em {
-	background: url(/static/img/chaptersection.png) 0 1px no-repeat
+	background: url(/study/static/img/chaptersection.png) 0 1px no-repeat
 }
 
 .cepingcur, .codecur, .submenulist li.ceping a.cepingcur:hover,
@@ -6014,7 +6014,7 @@ em.issueBtn:hover {
 }
 
 .partTop {
-	background: url(/static/img/bg_ceping.png);
+	background: url(/study/static/img/bg_ceping.png);
 	height: 533px;
 	width: 100%
 }
@@ -6146,7 +6146,7 @@ em.issueBtn:hover {
 	position: absolute;
 	right: -10px;
 	top: -10px;
-	background: url(/static/img/icon.png) 0 -53px;
+	background: url(/study/static/img/icon.png) 0 -53px;
 	cursor: pointer
 }
 
@@ -6154,7 +6154,7 @@ em.issueBtn:hover {
 	width: 120px;
 	height: 90px;
 	cursor: pointer;
-	background: url(/static/img/mod_study.png) center center no-repeat
+	background: url(/study/static/img/mod_study.png) center center no-repeat
 		#d0d6d9
 }
 
@@ -6162,7 +6162,7 @@ em.issueBtn:hover {
 	width: 120px;
 	height: 90px;
 	cursor: pointer;
-	background: url(/static/img/code-shot.png) no-repeat #ccc;
+	background: url(/study/static/img/code-shot.png) no-repeat #ccc;
 	-webkit-transition: .25s;
 	-moz-transition: .25s;
 	-o-transition: .25s;
@@ -7384,7 +7384,7 @@ body {
 	width: 534px;
 	height: 326px;
 	z-index: 99999;
-	background: url(/static/img/video-newVersion-guide.png) no-repeat
+	background: url(/study/static/img/video-newVersion-guide.png) no-repeat
 }
 
 .guide-layer .btn-close-guide {
@@ -7490,7 +7490,7 @@ body {
 	height: 18px;
 	line-height: 18px;
 	padding-left: 24px;
-	background: url(/static/img/course/v2/dot_checkbox.png) -7px -6px
+	background: url(/study/static/img/course/v2/dot_checkbox.png) -7px -6px
 		no-repeat;
 	vertical-align: middle
 }
@@ -7590,7 +7590,7 @@ p.space-note-text-counter {
 
 .popl-hd {
 	height: 58px;
-	background: url(/static/lib/layer/1.6.0/skin/default/xubox_ico1.png)
+	background: url(/study/static/lib/layer/1.6.0/skin/default/xubox_ico1.png)
 		center 0 no-repeat
 }
 
@@ -7655,7 +7655,7 @@ p.space-note-text-counter {
 
 .deleting-bd {
 	height: 40px;
-	background: url(/static/lib/layer/1.6.0/skin/default/xubox_ico1.png) 60%
+	background: url(/study/static/lib/layer/1.6.0/skin/default/xubox_ico1.png) 60%
 		-98px no-repeat;
 	margin-bottom: 15px
 }
@@ -7665,7 +7665,7 @@ p.space-note-text-counter {
 }
 
 .deleting-bd.pop-dodeling {
-	background: url(/static/lib/layer/1.6.0/skin/default/pop_loading0.gif)
+	background: url(/study/static/lib/layer/1.6.0/skin/default/pop_loading0.gif)
 		center 0 no-repeat
 }
 
@@ -7896,7 +7896,7 @@ p.space-note-text-counter {
 }
 
 .pic-viewer-inner.loading {
-	background: url(/static/img/picloading.gif) center no-repeat
+	background: url(/study/static/img/picloading.gif) center no-repeat
 }
 
 .section-list {
@@ -7906,11 +7906,11 @@ p.space-note-text-counter {
 	z-index: 999;
 	width: 360px;
 	height: 100%;
-	background: url(/static/img/course/bg_sectionlist.png) repeat-x #14191e
+	background: url(/study/static/img/course/bg_sectionlist.png) repeat-x #14191e
 }
 
 .section-list .nano {
-	background: url(/static/img/course/bg_sectionlist.png) 0 bottom repeat-x
+	background: url(/study/static/img/course/bg_sectionlist.png) 0 bottom repeat-x
 }
 
 .section-list .nano .nano-content {
@@ -8236,7 +8236,7 @@ body {
 	margin: 0 auto;
 	font-size: 12px;
 	color: #787d82;
-	background: url(/static/img/course_video_review.png) 5px 7px no-repeat;
+	background: url(/study/static/img/course_video_review.png) 5px 7px no-repeat;
 	text-indent: 20px
 }
 
@@ -8532,7 +8532,7 @@ body {
 	top: -10px;
 	width: 16px;
 	height: 12px;
-	background: url(/static/img/sidebar.png) 0 -53px no-repeat
+	background: url(/study/static/img/sidebar.png) 0 -53px no-repeat
 }
 
 .list-note .list-con {

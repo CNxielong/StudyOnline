@@ -23,10 +23,10 @@
 			<a>讲师招募</a>
 			<a>联系我们</a>
 			<a>意见反馈</a>
-			<a href="http://www.itxdl.cn/">友情链接</a>
+			<a href="http://www.imooc.com/">友情链接</a>
 		</div>
 		<div class="width100 float_l text_c border_t margin_t20 padding_t20 color_gray fon_siz12">
-			<span>© 2016 paopao.com 京ICP备13042132号</span>
+			<span>© 2018 imooc.com 京ICP备13042132号</span>
 		</div>
 	</div>
 </div>

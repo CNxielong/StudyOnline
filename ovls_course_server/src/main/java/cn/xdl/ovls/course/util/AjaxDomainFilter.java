@@ -11,6 +11,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletResponse;
 
+
 @WebFilter(servletNames={"dispatcherServlet"})
 //@WebFilter(urlPatterns="/*");//报错
 public class AjaxDomainFilter implements Filter{
@@ -24,7 +25,7 @@ public class AjaxDomainFilter implements Filter{
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		System.out.println("--------AjaxDomainFilter-----------");
+		System.out.println("------Course--AjaxDomainFilter-----------");
 		//设置允许跨域响应的参数
 		HttpServletResponse httpRresponse = (HttpServletResponse)response;
 		httpRresponse.setHeader("Access-Control-Allow-Origin", "*");

@@ -714,7 +714,7 @@ a:active, a:hover {
 	top: 4px;
 	left: 20px;
 	cursor: pointer;
-	background: url(/static/img/nlogin.png) no-repeat;
+	background: url(/study/static/img/nlogin.png) no-repeat;
 	transition: transform .2s;
 	-webkit-transition: transform .2s;
 	-moz-transition: transform .2s;
@@ -764,14 +764,14 @@ a:active, a:hover {
 	top: -10px;
 	width: 16px;
 	height: 16px;
-	background: url(/static/img/common/new.png) no-repeat
+	background: url(/study/static/img/common/new.png) no-repeat
 }
 
 .header-app-icon {
 	display: inline-block;
 	width: 11px;
 	height: 16px;
-	background: url(/static/img/head-app-icon.png) no-repeat;
+	background: url(/study/static/img/head-app-icon.png) no-repeat;
 	vertical-align: -3px;
 	margin-right: 5px;
 	transition: .3s;
@@ -1162,7 +1162,7 @@ a:active, a:hover {
 .set_btn img {
 	border-radius: 50%;
 	display: inline-block;
-	background: url(/static/img/menu_icon.png) no-repeat
+	background: url(/study/static/img/menu_icon.png) no-repeat
 }
 
 #nav_list {
@@ -1180,7 +1180,7 @@ a:active, a:hover {
 	height: 39px;
 	line-height: 39px;
 	font-size: 14px;
-	background-image: url(/static/img/menu_icon.png?t=10);
+	background-image: url(/study/static/img/menu_icon.png?t=10);
 	background-repeat: no-repeat;
 	display: block;
 	color: #fff;
@@ -1230,7 +1230,7 @@ a:active, a:hover {
 .myspace_remind {
 	width: 10px;
 	height: 10px;
-	background: url(/static/img/space-remind.png) no-repeat;
+	background: url(/study/static/img/space-remind.png) no-repeat;
 	top: 10px;
 	right: 10px
 }
@@ -1260,7 +1260,7 @@ a:active, a:hover {
 .footer_logo {
 	display: none;
 	float: left;
-	background: url(/static/img/common/footer-sprite.png) 0 -230px no-repeat;
+	background: url(/study/static/img/common/footer-sprite.png) 0 -230px no-repeat;
 	height: 40px;
 	width: 120px;
 	margin: 0 20px
@@ -1280,7 +1280,7 @@ a:active, a:hover {
 	position: relative;
 	width: 32px;
 	height: 32px;
-	background-image: url(/static/img/common/footer-sprite.png);
+	background-image: url(/study/static/img/common/footer-sprite.png);
 	background-repeat: no-repeat;
 	margin: 3px 6px 0;
 	opacity: .5;
@@ -1303,7 +1303,7 @@ a:active, a:hover {
 	height: 220px;
 	left: -69px;
 	bottom: 35px;
-	background: url(/static/img/common/footer-sprite.png?1) no-repeat
+	background: url(/study/static/img/common/footer-sprite.png?1) no-repeat
 }
 
 .followus .followus-weixin {
@@ -1471,7 +1471,7 @@ select:focus {
 
 a.btn-add-collection {
 	display: block;
-	background: url(/static/img/course/new_add_collection.png) 46px top
+	background: url(/study/static/img/course/new_add_collection.png) 46px top
 		no-repeat;
 	height: 32px;
 	color: #909b9e;
@@ -1621,7 +1621,7 @@ progress::-webkit-progress-value {
 	-webkit-transform-origin: 100% 95%;
 	-ms-transform-origin: 100% 95%;
 	transform-origin: 100% 95%;
-	background: url(/static/img/common/elevator.png?t=2) 0 -220px no-repeat
+	background: url(/study/static/img/common/elevator.png?t=2) 0 -220px no-repeat
 }
 
 .elevator .elevator-app:hover .elevator-app-box {
@@ -1653,7 +1653,7 @@ progress::-webkit-progress-value {
 	-webkit-transform-origin: 100% 95%;
 	-ms-transform-origin: 100% 95%;
 	transform-origin: 100% 95%;
-	background: url(/static/img/common/elevator.png?t=2) no-repeat
+	background: url(/study/static/img/common/elevator.png?t=2) no-repeat
 }
 
 .elevator .elevator-weixin:hover .elevator-weixin-box {
@@ -1700,7 +1700,7 @@ input::-moz-focus-inner {
 	min-width: 800px;
 	height: 30px;
 	line-height: 30px;
-	background: url(/static/img/iebg.gif) repeat-x;
+	background: url(/study/static/img/iebg.gif) repeat-x;
 	z-index: 999999
 }
 
@@ -1715,7 +1715,7 @@ input::-moz-focus-inner {
 	height: 14px;
 	vertical-align: -2px;
 	margin-right: 5px;
-	background: url(/static/img/iefixed-sprite.png) no-repeat
+	background: url(/study/static/img/iefixed-sprite.png) no-repeat
 }
 
 .cpt-ct a {
@@ -1764,7 +1764,7 @@ input::-moz-focus-inner {
 	height: 8px;
 	width: 8px;
 	vertical-align: 1px;
-	background: url(/static/img/iefixed-sprite.png) 0 -24px no-repeat
+	background: url(/study/static/img/iefixed-sprite.png) 0 -24px no-repeat
 }
 
 .cpt-close:hover i {
@@ -1786,7 +1786,7 @@ input::-moz-focus-inner {
 	top: -11px;
 	width: 19px;
 	height: 11px;
-	background: url(/static/img/dot_usercard.png)
+	background: url(/study/static/img/dot_usercard.png)
 }
 
 .layer-usercard-header {
@@ -2322,7 +2322,7 @@ select[multiple].ipt, textarea.ipt {
 	position: absolute;
 	top: 0;
 	right: 8px;
-	background: url(/static/img/common/coupon-icon.png) no-repeat
+	background: url(/study/static/img/common/coupon-icon.png) no-repeat
 }
 
 .g-user-card .user-center-box ul li:nth-child(2n) {
@@ -2882,7 +2882,7 @@ select[multiple].ipt, textarea.ipt {
 		border-radius: 22px;
 		vertical-align: middle;
 		display: inline-block;
-		background: url(/static/img/menu_icon.png) no-repeat
+		background: url(/study/static/img/menu_icon.png) no-repeat
 	}
 	body.slide-left .nav-item {
 		display: block
@@ -2897,13 +2897,13 @@ select[multiple].ipt, textarea.ipt {
 
 @font-face {
 	font-family: icomoon;
-	src: url(/static/fonts/icomoon/fonts/icomoon.eot?d8493nx);
-	src: url(/static/fonts/icomoon/fonts/icomoon.eot?d8493nx#iefix)
+	src: url(/study/static/fonts/icomoon/fonts/icomoon.eot?d8493nx);
+	src: url(/study/static/fonts/icomoon/fonts/icomoon.eot?d8493nx#iefix)
 		format('embedded-opentype'),
-		url(/static/fonts/icomoon/fonts/icomoon.ttf?d8493nx)
+		url(/study/static/fonts/icomoon/fonts/icomoon.ttf?d8493nx)
 		format('truetype'),
-		url(/static/fonts/icomoon/fonts/icomoon.woff?d8493nx) format('woff'),
-		url(/static/fonts/icomoon/fonts/icomoon.svg?d8493nx#icomoon)
+		url(/study/static/fonts/icomoon/fonts/icomoon.woff?d8493nx) format('woff'),
+		url(/study/static/fonts/icomoon/fonts/icomoon.svg?d8493nx#icomoon)
 		format('svg');
 	font-weight: 400;
 	font-style: normal
@@ -3383,12 +3383,12 @@ select[multiple].ipt, textarea.ipt {
 
 @font-face {
 	font-family: imv2;
-	src: url(/static/fonts/imv2/fonts/imv2.eot?5yqf6o6);
-	src: url(/static/fonts/imv2/fonts/imv2.eot?5yqf6o6#iefix)
+	src: url(/study/static/fonts/imv2/fonts/imv2.eot?5yqf6o6);
+	src: url(/study/static/fonts/imv2/fonts/imv2.eot?5yqf6o6#iefix)
 		format('embedded-opentype'),
-		url(/static/fonts/imv2/fonts/imv2.ttf?5yqf6o6) format('truetype'),
-		url(/static/fonts/imv2/fonts/imv2.woff?5yqf6o6) format('woff'),
-		url(/static/fonts/imv2/fonts/imv2.svg?5yqf6o6#imv2) format('svg');
+		url(/study/static/fonts/imv2/fonts/imv2.ttf?5yqf6o6) format('truetype'),
+		url(/study/static/fonts/imv2/fonts/imv2.woff?5yqf6o6) format('woff'),
+		url(/study/static/fonts/imv2/fonts/imv2.svg?5yqf6o6#imv2) format('svg');
 	font-weight: 400;
 	font-style: normal
 }
@@ -3915,7 +3915,7 @@ body {
 .user-head-info .user-info .user-name .signicon {
 	width: 25px;
 	margin: 12px 0 0 10px;
-	background-image: url(/static/img/u/user-info-icon.png);
+	background-image: url(/study/static/img/u/user-info-icon.png);
 	background-repeat: no-repeat;
 	position: relative;
 	top: -2px
@@ -3977,7 +3977,7 @@ body {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
-	background: url(/static/img/u/gender.png) no-repeat;
+	background: url(/study/static/img/u/gender.png) no-repeat;
 	vertical-align: -3px
 }
 
@@ -4076,13 +4076,13 @@ body {
 
 .bg-author {
 	height: 220px;
-	background: url(/static/img/u/bg-author.png) center top no-repeat #000;
+	background: url(/study/static/img/u/bg-author.png) center top no-repeat #000;
 	background-size: cover
 }
 
 .bg-teacher {
 	height: 220px;
-	background: url(/static/img/u/bg-teacher.png) center top no-repeat #000;
+	background: url(/study/static/img/u/bg-teacher.png) center top no-repeat #000;
 	background-size: cover
 }
 
@@ -4328,7 +4328,7 @@ body {
 }
 
 .successcon .suclose {
-	background: url(/static/img/tipicon.png) no-repeat;
+	background: url(/study/static/img/tipicon.png) no-repeat;
 	width: 16px;
 	height: 16px;
 	float: right;
@@ -4337,7 +4337,7 @@ body {
 
 .sendok {
 	clear: both;
-	background: url(/static/img/zyicon.png) 0 -106px no-repeat;
+	background: url(/study/static/img/zyicon.png) 0 -106px no-repeat;
 	height: 52px;
 	margin: 12px 0 0 30px;
 	padding: 10px 0 0 50px;
@@ -4391,7 +4391,7 @@ body {
 	float: left;
 	width: 40px;
 	height: 60px;
-	background: url(/static/img/icron_mgr.png) center 24px no-repeat
+	background: url(/study/static/img/icron_mgr.png) center 24px no-repeat
 }
 
 .sendmsg_btn_box {
@@ -4449,7 +4449,7 @@ body {
 }
 
 .pravtie_close .xubox_close1 {
-	background: url(/static/img/pravtie_close.jpg) no-repeat;
+	background: url(/study/static/img/pravtie_close.jpg) no-repeat;
 	width: 30px;
 	height: 30px;
 	top: 15px;

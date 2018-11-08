@@ -678,7 +678,7 @@ a:active, a:hover {
 	display: block;
 	height: 60px;
 	width: 140px;
-	background: url(/static/img/common/logo.png?t=2.3) center center
+	background: url(/study/static/img/common/logo.png?t=2.3) center center
 		no-repeat;
 	text-indent: 100%;
 	overflow: hidden
@@ -714,7 +714,7 @@ a:active, a:hover {
 	top: 4px;
 	left: 20px;
 	cursor: pointer;
-	background: url(/static/img/nlogin.png) no-repeat;
+	background: url(/study/static/img/nlogin.png) no-repeat;
 	transition: transform .2s;
 	-webkit-transition: transform .2s;
 	-moz-transition: transform .2s;
@@ -764,14 +764,14 @@ a:active, a:hover {
 	top: -10px;
 	width: 16px;
 	height: 16px;
-	background: url(/static/img/common/new.png) no-repeat
+	background: url(/study/static/img/common/new.png) no-repeat
 }
 
 .header-app-icon {
 	display: inline-block;
 	width: 11px;
 	height: 16px;
-	background: url(/static/img/head-app-icon.png) no-repeat;
+	background: url(/study/static/img/head-app-icon.png) no-repeat;
 	vertical-align: -3px;
 	margin-right: 5px;
 	transition: .3s;
@@ -1162,7 +1162,7 @@ a:active, a:hover {
 .set_btn img {
 	border-radius: 50%;
 	display: inline-block;
-	background: url(/static/img/menu_icon.png) no-repeat
+	background: url(/study/static/img/menu_icon.png) no-repeat
 }
 
 #nav_list {
@@ -1180,7 +1180,7 @@ a:active, a:hover {
 	height: 39px;
 	line-height: 39px;
 	font-size: 14px;
-	background-image: url(/static/img/menu_icon.png?t=10);
+	background-image: url(/study/static/img/menu_icon.png?t=10);
 	background-repeat: no-repeat;
 	display: block;
 	color: #fff;
@@ -1230,7 +1230,7 @@ a:active, a:hover {
 .myspace_remind {
 	width: 10px;
 	height: 10px;
-	background: url(/static/img/space-remind.png) no-repeat;
+	background: url(/study/static/img/space-remind.png) no-repeat;
 	top: 10px;
 	right: 10px
 }
@@ -1260,7 +1260,7 @@ a:active, a:hover {
 .footer_logo {
 	display: none;
 	float: left;
-	background: url(/static/img/common/footer-sprite.png) 0 -230px no-repeat;
+	background: url(/study/static/img/common/footer-sprite.png) 0 -230px no-repeat;
 	height: 40px;
 	width: 120px;
 	margin: 0 20px
@@ -1280,7 +1280,7 @@ a:active, a:hover {
 	position: relative;
 	width: 32px;
 	height: 32px;
-	background-image: url(/static/img/common/footer-sprite.png);
+	background-image: url(/study/static/img/common/footer-sprite.png);
 	background-repeat: no-repeat;
 	margin: 3px 6px 0;
 	opacity: .5;
@@ -1303,7 +1303,7 @@ a:active, a:hover {
 	height: 220px;
 	left: -69px;
 	bottom: 35px;
-	background: url(/static/img/common/footer-sprite.png?1) no-repeat
+	background: url(/study/static/img/common/footer-sprite.png?1) no-repeat
 }
 
 .followus .followus-weixin {
@@ -1471,7 +1471,7 @@ select:focus {
 
 a.btn-add-collection {
 	display: block;
-	background: url(/static/img/course/new_add_collection.png) 46px top
+	background: url(/study/static/img/course/new_add_collection.png) 46px top
 		no-repeat;
 	height: 32px;
 	color: #909b9e;
@@ -1621,7 +1621,7 @@ progress::-webkit-progress-value {
 	-webkit-transform-origin: 100% 95%;
 	-ms-transform-origin: 100% 95%;
 	transform-origin: 100% 95%;
-	background: url(/static/img/common/elevator.png?t=2) 0 -220px no-repeat
+	background: url(/study/static/img/common/elevator.png?t=2) 0 -220px no-repeat
 }
 
 .elevator .elevator-app:hover .elevator-app-box {
@@ -1653,7 +1653,7 @@ progress::-webkit-progress-value {
 	-webkit-transform-origin: 100% 95%;
 	-ms-transform-origin: 100% 95%;
 	transform-origin: 100% 95%;
-	background: url(/static/img/common/elevator.png?t=2) no-repeat
+	background: url(/study/static/img/common/elevator.png?t=2) no-repeat
 }
 
 .elevator .elevator-weixin:hover .elevator-weixin-box {
@@ -1700,7 +1700,7 @@ input::-moz-focus-inner {
 	min-width: 800px;
 	height: 30px;
 	line-height: 30px;
-	background: url(/static/img/iebg.gif) repeat-x;
+	background: url(/study/static/img/iebg.gif) repeat-x;
 	z-index: 999999
 }
 
@@ -1715,7 +1715,7 @@ input::-moz-focus-inner {
 	height: 14px;
 	vertical-align: -2px;
 	margin-right: 5px;
-	background: url(/static/img/iefixed-sprite.png) no-repeat
+	background: url(/study/static/img/iefixed-sprite.png) no-repeat
 }
 
 .cpt-ct a {
@@ -1764,7 +1764,7 @@ input::-moz-focus-inner {
 	height: 8px;
 	width: 8px;
 	vertical-align: 1px;
-	background: url(/static/img/iefixed-sprite.png) 0 -24px no-repeat
+	background: url(/study/static/img/iefixed-sprite.png) 0 -24px no-repeat
 }
 
 .cpt-close:hover i {
@@ -1786,7 +1786,7 @@ input::-moz-focus-inner {
 	top: -11px;
 	width: 19px;
 	height: 11px;
-	background: url(/static/img/dot_usercard.png)
+	background: url(/study/static/img/dot_usercard.png)
 }
 
 .layer-usercard-header {
@@ -2322,7 +2322,7 @@ select[multiple].ipt, textarea.ipt {
 	position: absolute;
 	top: 0;
 	right: 8px;
-	background: url(/static/img/common/coupon-icon.png) no-repeat
+	background: url(/study/static/img/common/coupon-icon.png) no-repeat
 }
 
 .g-user-card .user-center-box ul li:nth-child(2n) {
@@ -2882,7 +2882,7 @@ select[multiple].ipt, textarea.ipt {
 		border-radius: 22px;
 		vertical-align: middle;
 		display: inline-block;
-		background: url(/static/img/menu_icon.png) no-repeat
+		background: url(/study/static/img/menu_icon.png) no-repeat
 	}
 	body.slide-left .nav-item {
 		display: block
@@ -2897,13 +2897,13 @@ select[multiple].ipt, textarea.ipt {
 
 @font-face {
 	font-family: icomoon;
-	src: url(/static/fonts/icomoon/fonts/icomoon.eot?d8493nx);
-	src: url(/static/fonts/icomoon/fonts/icomoon.eot?d8493nx#iefix)
+	src: url(/study/static/fonts/icomoon/fonts/icomoon.eot?d8493nx);
+	src: url(/study/static/fonts/icomoon/fonts/icomoon.eot?d8493nx#iefix)
 		format('embedded-opentype'),
-		url(/static/fonts/icomoon/fonts/icomoon.ttf?d8493nx)
+		url(/study/static/fonts/icomoon/fonts/icomoon.ttf?d8493nx)
 		format('truetype'),
-		url(/static/fonts/icomoon/fonts/icomoon.woff?d8493nx) format('woff'),
-		url(/static/fonts/icomoon/fonts/icomoon.svg?d8493nx#icomoon)
+		url(/study/static/fonts/icomoon/fonts/icomoon.woff?d8493nx) format('woff'),
+		url(/study/static/fonts/icomoon/fonts/icomoon.svg?d8493nx#icomoon)
 		format('svg');
 	font-weight: 400;
 	font-style: normal
@@ -3383,12 +3383,12 @@ select[multiple].ipt, textarea.ipt {
 
 @font-face {
 	font-family: imv2;
-	src: url(/static/fonts/imv2/fonts/imv2.eot?5yqf6o6);
-	src: url(/static/fonts/imv2/fonts/imv2.eot?5yqf6o6#iefix)
+	src: url(/study/static/fonts/imv2/fonts/imv2.eot?5yqf6o6);
+	src: url(/study/static/fonts/imv2/fonts/imv2.eot?5yqf6o6#iefix)
 		format('embedded-opentype'),
-		url(/static/fonts/imv2/fonts/imv2.ttf?5yqf6o6) format('truetype'),
-		url(/static/fonts/imv2/fonts/imv2.woff?5yqf6o6) format('woff'),
-		url(/static/fonts/imv2/fonts/imv2.svg?5yqf6o6#imv2) format('svg');
+		url(/study/static/fonts/imv2/fonts/imv2.ttf?5yqf6o6) format('truetype'),
+		url(/study/static/fonts/imv2/fonts/imv2.woff?5yqf6o6) format('woff'),
+		url(/study/static/fonts/imv2/fonts/imv2.svg?5yqf6o6#imv2) format('svg');
 	font-weight: 400;
 	font-style: normal
 }
@@ -4585,7 +4585,7 @@ body, html {
 	width: 17px;
 	height: 17px;
 	cursor: pointer;
-	background: url(/static/img/nlogin.png) no-repeat;
+	background: url(/study/static/img/nlogin.png) no-repeat;
 	transition: transform .2s;
 	-webkit-transition: transform .2s;
 	-moz-transition: transform .2s;
@@ -4707,7 +4707,7 @@ body, html {
 	height: 16px;
 	top: 32px;
 	left: 11px;
-	background: url(/static/img/wenda-search.png) no-repeat
+	background: url(/study/static/img/wenda-search.png) no-repeat
 }
 
 .search-result, .search-result li, .tags-body {
@@ -4867,7 +4867,7 @@ body, html {
 }
 
 .type_teach {
-	background: url(/static/img/wenda-tc.png) no-repeat;
+	background: url(/study/static/img/wenda-tc.png) no-repeat;
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -4879,7 +4879,7 @@ body, html {
 	display: inline-block;
 	width: 14px;
 	height: 14px;
-	background: url(/static/img/wenda/answerMember.png) no-repeat
+	background: url(/study/static/img/wenda/answerMember.png) no-repeat
 }
 
 .detail-user .answer-member, .user-about .answer-member {
@@ -4988,7 +4988,7 @@ body, html {
 	line-height: 22px;
 	vertical-align: -2px;
 	text-indent: -9999px;
-	background: url(/static/img/opus/opus-logo.png) left top no-repeat
+	background: url(/study/static/img/opus/opus-logo.png) left top no-repeat
 }
 
 .opus-header a {
@@ -5225,7 +5225,7 @@ body, html {
 }
 
 .share-rl-tips .rule-arrow {
-	background: url(/static/img/common/rl-arrow.png) 0 -11px no-repeat;
+	background: url(/study/static/img/common/rl-arrow.png) 0 -11px no-repeat;
 	position: absolute;
 	right: 51px;
 	top: -6px;
@@ -5569,7 +5569,7 @@ body, html {
 	padding: 0;
 	width: 130px;
 	height: 40px;
-	background: url(/static/img/wenda_share.png) no-repeat;
+	background: url(/study/static/img/wenda_share.png) no-repeat;
 	border: 0
 }
 
@@ -5602,7 +5602,7 @@ body, html {
 }
 
 .pop-tips-layer .icon-load {
-	background: url(/static/img/common/loading.gif) no-repeat;
+	background: url(/study/static/img/common/loading.gif) no-repeat;
 	display: inline-block;
 	width: 36px;
 	height: 36px;
@@ -5730,12 +5730,12 @@ body, html {
 }
 
 .qa-tips-error {
-	background: url(/static/img/wenda-sprite.png?1) -5px -182px no-repeat;
+	background: url(/study/static/img/wenda-sprite.png?1) -5px -182px no-repeat;
 	padding-left: 16px
 }
 
 .qa-tips-ok {
-	background: url(/static/img/wenda-sprite.png?1) -5px -158px no-repeat;
+	background: url(/study/static/img/wenda-sprite.png?1) -5px -158px no-repeat;
 	color: #3ab94e;
 	padding-left: 16px
 }
@@ -5784,7 +5784,7 @@ button.btn-mini {
 	display: block;
 	width: 24px;
 	height: 24px;
-	background: url(/static/img/icon-wenda.png) left top no-repeat;
+	background: url(/study/static/img/icon-wenda.png) left top no-repeat;
 	margin: 10px auto 0
 }
 
@@ -5880,7 +5880,7 @@ button.btn-mini {
 	margin-top: 10px;
 	height: 30px;
 	width: 120px;
-	background: url(/static/img/code-sprite.png) no-repeat
+	background: url(/study/static/img/code-sprite.png) no-repeat
 }
 
 .qa-code:hover {
@@ -5901,7 +5901,7 @@ button.btn-mini {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background: url(/static/img/wenda-sprite.png?1) 0 -292px no-repeat
+	background: url(/study/static/img/wenda-sprite.png?1) 0 -292px no-repeat
 }
 
 .qa-comment-d {
@@ -5957,7 +5957,7 @@ button.btn-mini {
 .qa-icon {
 	display: inline-block;
 	margin-top: -2px;
-	background: url(/static/img/wenda-sprite.png?1) no-repeat
+	background: url(/study/static/img/wenda-sprite.png?1) no-repeat
 }
 
 .qa-comment-support {
@@ -6355,7 +6355,7 @@ button.btn-mini {
 	line-height: 50px;
 	margin-top: -40px;
 	color: #00b33b;
-	background: url(/static/img/icon-wenda.png) 17px -54px no-repeat
+	background: url(/study/static/img/icon-wenda.png) 17px -54px no-repeat
 }
 
 .qa-comment-wrap.thebest .qa-comment-d {
@@ -6501,7 +6501,7 @@ button.btn-mini {
 
 .deleting-bd {
 	height: 40px;
-	background: url(/static/lib/layer/1.6.0/skin/default/xubox_ico1.png) 60%
+	background: url(/study/static/lib/layer/1.6.0/skin/default/xubox_ico1.png) 60%
 		-98px no-repeat;
 	margin-bottom: 15px
 }
@@ -6511,7 +6511,7 @@ button.btn-mini {
 }
 
 .deleting-bd.pop-dodeling {
-	background: url(/static/lib/layer/1.6.0/skin/default/pop_loading0.gif)
+	background: url(/study/static/lib/layer/1.6.0/skin/default/pop_loading0.gif)
 		center 0 no-repeat
 }
 
@@ -6668,7 +6668,7 @@ opacity
 }
 
 #ctrlBar #bar {
-	background: url(/static/img/arrow-down2.png) center center no-repeat;
+	background: url(/study/static/img/arrow-down2.png) center center no-repeat;
 	height: 35px;
 	width: 20px;
 	cursor: pointer;
@@ -6698,7 +6698,7 @@ opacity
 	width: 13px;
 	height: 13px;
 	margin-right: 3px;
-	background: url(/static/img/ts-sprite.png) no-repeat 0 0
+	background: url(/study/static/img/ts-sprite.png) no-repeat 0 0
 }
 
 .result-toggle:link, .result-toggle:visited {
@@ -6888,7 +6888,7 @@ opacity
 }
 
 .editor-commit .status {
-	background: url(/static/img/asset_code.png) right -193px no-repeat;
+	background: url(/study/static/img/asset_code.png) right -193px no-repeat;
 	width: 35px;
 	height: 35px;
 	line-height: 35px;
@@ -6920,7 +6920,7 @@ opacity
 	top: 10px;
 	width: 22px;
 	height: 22px;
-	background: url(/static/img/asset_code.png) 0 -177px
+	background: url(/study/static/img/asset_code.png) 0 -177px
 }
 
 .editor-commit .close:hover {
@@ -6943,7 +6943,7 @@ opacity
 	margin: 0 auto;
 	width: 107px;
 	height: 28px;
-	background: url(/static/img/asset_code.png) 0 -106px;
+	background: url(/study/static/img/asset_code.png) 0 -106px;
 	line-height: 28px;
 	text-align: center;
 	color: #fff;
@@ -6980,7 +6980,7 @@ opacity
 	position: absolute;
 	right: -10px;
 	top: -10px;
-	background: url(/static/img/icon.png) 0 -53px;
+	background: url(/study/static/img/icon.png) 0 -53px;
 	cursor: pointer
 }
 
@@ -6990,7 +6990,7 @@ opacity
 	width: 120px;
 	height: 88px;
 	cursor: pointer;
-	background: #ccc url(/static/img/code-shot.png);
+	background: #ccc url(/study/static/img/code-shot.png);
 	-webkit-transition: .25s;
 	-moz-transition: .25s;
 	-o-transition: .25s;
@@ -7136,7 +7136,7 @@ opacity
 	width: 53px;
 	height: 20px;
 	line-height: 20px;
-	background: url(/static/img/mod_question.png);
+	background: url(/study/static/img/mod_question.png);
 	text-align: right;
 	cursor: pointer
 }
@@ -7225,7 +7225,7 @@ opacity
 }
 
 .codeicon.jsp {
-	background: url(/static/img/code_icon.png) no-repeat;
+	background: url(/study/static/img/code_icon.png) no-repeat;
 	width: 88px;
 	height: 28px
 }
@@ -7440,7 +7440,7 @@ abbr {
 	height: 40px;
 	right: -40px;
 	top: -40px;
-	background: url(/static/img/index-close.png) no-repeat -10px -10px
+	background: url(/study/static/img/index-close.png) no-repeat -10px -10px
 }
 
 .show-img a:hover {
@@ -7479,7 +7479,7 @@ abbr {
 }
 
 .barWrap .arrowR {
-	background: url(/static/img/judge2.png) no-repeat -83px -18px;
+	background: url(/study/static/img/judge2.png) no-repeat -83px -18px;
 	width: 14px;
 	height: 10px;
 	top: 201px;

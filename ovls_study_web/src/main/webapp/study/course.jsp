@@ -3,34 +3,35 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>兄弟学习网</title>
+<base href="${pageContext.request.contextPath}/study/">
+<title>慕课学习网</title>
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/static/moco/v1.0/dist/css/moco.min.css"
+	href="static/moco/v1.0/dist/css/moco.min.css"
 	type="text/css" />
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/css/common.css"
+	href="css/common.css"
 	type="text/css">
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/css/pagination.css"
+	href="css/pagination.css"
 	type="text/css">
 <!-- 网页标题栏图标 -->
-<link rel="SHORTCUT ICON" href="favicon.ico" />
+<link rel="SHORTCUT ICON" href="img/favicon.ico" />
 
 <!--问答评论区切换的实现-->
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/static.mukewang.com/static/css/lv_course_1.css"
+	href="static.mukewang.com/static/css/lv_course_1.css"
 	type="text/css"/>
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/static.mukewang.com/static/css/lv_course_2.css"
+	href="static.mukewang.com/static/css/lv_course_2.css"
 	type="text/css"/>
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/static.mukewang.com/static/css/lv_course_3.css"
+	href="static.mukewang.com/static/css/lv_course_3.css"
 	type="text/css"/>
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/static.mukewang.com/static/css/lv_course_4.css"
+	href="static.mukewang.com/static/css/lv_course_4.css"
 	type="text/css"/>
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/study/static.mukewang.com/static/css/lv_course_5.css"
+	href="static.mukewang.com/static/css/lv_course_5.css"
 	type="text/css"/>
 
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -84,7 +85,7 @@ div.panel-body {
 					
 				</div>
 				<div class="hd clearfix">
-					<h2 class="l">Java</h2>
+					<h2 class="l" id="course_name">Java</h2>
 				</div>
 
 				<div class="statics clearfix"><h1>
@@ -93,18 +94,18 @@ div.panel-body {
 					</div>
 					<div class="static-item l">
 						<span class="meta">学习人数</span> <span
-							class="meta-value js-learn-num">1032</span>
+							class="meta-value js-learn-num" id="course_learnCount">1032</span>
 					</div>
 					<div class="static-item l">
-						<span class="meta">难度级别</span> <span class="meta-value">3</span>
+						<span class="meta">难度级别</span> <span class="meta-value" id="course_difficulty">3</span>
 						<em></em>
 					</div>
 					<div class="static-item l">
-						<span class="meta">课程时长</span> <span class="meta-value">
+						<span class="meta">课程时长</span> <span class="meta-value" id="course_learnTime">
 							1小时35分</span> <em></em>
 					</div>
 					<div class="static-item l score-btn">
-						<span class="meta">综合评分</span> <span class="meta-value">5</span>
+						<span class="meta">综合评分</span> <span class="meta-value" id="course_score">5</span>
 						<em></em>
 					</div>
 					<div class="static-item l">
@@ -134,7 +135,7 @@ div.panel-body {
 				<div class="content">
 					<!-- 课程简介 -->
 					<div class="course-brief">
-						<p class="auto-wrap">
+						<p class="auto-wrap" id="course_intro">
 							简介：JAVAJAVAJAVAJAVAJAVAJAVA</p>
 					</div>
 					<!-- 课程简介 end -->
@@ -150,38 +151,38 @@ div.panel-body {
 					</div>
 
 					<!-- 课程章节 -->
-					<div id="chapter_1" class="mod-chapters">
+					<div id="course_chapters" class="mod-chapters">
 
-						<!-- 1章节开始 -->
-						<div class="panel chapter">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="javascript:void(0)"
-										href="#">
-										<h3>
-											<img alt="" src="${pageContext.request.contextPath}/study/course/icon/lv_icon1.jpg"  id="lv_icon1">
-											<strong>
-												&nbsp;&nbsp;&nbsp;&nbsp;
-												JAVA
-												<img alt="" src="${pageContext.request.contextPath}/study/course/icon/lv_icon2.jpg"  id="lv_icon2">
-											</strong>
-												<img alt="" src="${pageContext.request.contextPath}/study/course/icon/lv_icon3.jpg"  id="lv_icon3">
-										</h3>
-									</a>
-								</h4>
-							</div>
-							<div  class="panel-collapse">
-								<div class="panel-body">
-									<a href="video.jsp">JAVA1
-										<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a>
-								</div>
+<!-- 						1章节开始 -->
+<!-- 						<div class="panel chapter"> -->
+<!-- 							<div class="panel-heading"> -->
+<!-- 								<h4 class="panel-title"> -->
+<!-- 									<a data-toggle="collapse" data-parent="javascript:void(0)" -->
+<!-- 										href="#"> -->
+<!-- 										<h3> -->
+<!-- 											<img alt="" src="course/icon/lv_icon1.jpg"  id="lv_icon1"> -->
+<!-- 											<strong> -->
+<!-- 												&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- 												JAVA -->
+<!-- 												<img alt="" src="course/icon/lv_icon2.jpg"  id="lv_icon2"> -->
+<!-- 											</strong> -->
+<!-- 												<img alt="" src="course/icon/lv_icon3.jpg"  id="lv_icon3"> -->
+<!-- 										</h3> -->
+<!-- 									</a> -->
+<!-- 								</h4> -->
+<!-- 							</div> -->
+<!-- 							<div  class="panel-collapse"> -->
+<!-- 								<div class="panel-body"> -->
+<!-- 									<a href="video.jsp">JAVA1 -->
+<!-- 										<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a> -->
+<!-- 								</div> -->
 								
-								<div class="panel-body">
-									<a href="video.jsp">JAVA2
-										<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a>
-								</div>
-							</div>
-						</div>
+<!-- 								<div class="panel-body"> -->
+<!-- 									<a href="video.jsp">JAVA2 -->
+<!-- 										<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
 						
 					</div>
 
@@ -196,7 +197,7 @@ div.panel-body {
 							<li class='post-row' id='63036'>
 								<div class='media'>
 									<a href='' target='_blank'>
-									<img src='${pageContext.request.contextPath}/study/avatars/paopao.jpg' width='40' height='40'>
+									<img src='avatars/paopao.jpg' width='40' height='40'>
 									</a>
 								</div>
 								<div class='bd'>
@@ -207,7 +208,7 @@ div.panel-body {
 									<div class='footer clearfix'>
 										<span title='创建时间' class='l timeago'>时间：2017-01-01 12:30:01"</span>
 										<a title='赞' class='js-pl-praise list-praise r' data-id='452768'>
-										<img src='${pageContext.request.contextPath}/study/images/iconzan.jpg' id='lick_count_a' >
+										<img src='images/iconzan.jpg' id='lick_count_a' >
 										<span id='zxy_like_count"+elt_id+"'>212</span></a>
 									</div>
 								</div>
@@ -215,7 +216,7 @@ div.panel-body {
 														<li class='post-row' id='63036'>
 								<div class='media'>
 									<a href='' target='_blank'>
-									<img src='${pageContext.request.contextPath}/study/avatars/paopao.jpg' width='40' height='40'>
+									<img src='avatars/paopao.jpg' width='40' height='40'>
 									</a>
 								</div>
 								<div class='bd'>
@@ -226,7 +227,7 @@ div.panel-body {
 									<div class='footer clearfix'>
 										<span title='创建时间' class='l timeago'>时间：2017-01-01 12:30:01"</span>
 										<a title='赞' class='js-pl-praise list-praise r' data-id='452768'>
-										<img src='${pageContext.request.contextPath}/study/images/iconzan.jpg' id='lick_count_a' >
+										<img src='images/iconzan.jpg' id='lick_count_a' >
 										<span id='zxy_like_count"+elt_id+"'>212</span></a>
 									</div>
 								</div>
@@ -443,4 +444,172 @@ document.write(mystr+&quot;&lt;br&gt;&quot;);//输出hello后，输出一个换�
 	<%@include file="footer_black.jsp"%>
 
 </body>
+<script type="text/javascript">
+	$(function(){
+		//加载课程和章节信息
+		loadCourse();
+	});
+	
+	function loadCourse(){
+		var cid = getUrlParam('cid');
+		$.ajax({
+			url:'http://localhost:8882/course/'+cid,
+			dataType:'json',
+			method:'get',
+			success:function(result){
+				var course = result.data;
+				//将课程信息添加到显示位置
+				$('#course_name').html(course.name);
+				$('#course_learnCount').html(course.learnCount);
+				$('#course_difficulty').html(course.difficulty);
+				$('#course_score').html(course.score);
+				$('#course_learnTime').html(course.learnTime);
+				var chapters = course.chapters;
+				for ( var i = 0; i <  chapters.length; i++) {
+					var str = '';
+					var chapter = chapters[i];
+					var chapter_id = chapters[i].id;
+					var chapter_name = chapters[i].name;
+					str += '<div class="panel chapter">';
+					str += '<div class="panel-heading" id=chapter'+chapter_id+'>';
+					str += '	<h4 class="panel-title">';
+					str += '		<a data-toggle="collapse" data-parent="javascript:void(0)" onclick=loadVideo('+chapter_id+')';
+					str += '			href="JavaScript:;">';
+					str += '			<h3>';
+					str += '				<img alt="" src="course/icon/lv_icon1.jpg"  id="lv_icon1">';
+					str += '				<strong>';
+					str += '					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+					str += chapter_name;
+					str += '					<img alt="" src="course/icon/lv_icon2.jpg"  id="lv_icon2">';
+					str += '				</strong>';
+					str += '					<img alt="" src="course/icon/lv_icon3.jpg"  id="lv_icon3">';
+					str += '			</h3>';
+					str += '		</a>';
+					str += '	</h4>';
+					str += '</div>';
+// 					str += '<div  class="panel-collapse">';
+// 					str += '	<div class="panel-body">';
+// 					str += '		<a href="video.jsp">'+chapter_name+'';
+// 					str += '			<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a>';
+// 					str += '	</div>';
+						
+// 					str += '	<div class="panel-body">';
+// 					str += '		<a href="video.jsp">'+chapter_name+'';
+// 					str += '			<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a>';
+// 					str += '	</div>';
+// 					str += '</div>';
+					str += '</div>';
+				$('#course_chapters').append(str);
+				}// in循环
+			}
+		})
+	};
+	
+	function loadVideo(chapter_id){
+		//将其他章节视频列表清空
+		$(".panel-collapse").remove();
+		//加载当前章节视频列表
+		$.ajax({
+			url:"http://localhost:8883/video/chapter/"+chapter_id,
+			type:"get",
+			dataType:"json",
+			success:function(result){
+				if(result.status==1){//有结果
+					//拼一个视频列表
+					var str = '';
+					str+='	<div class="panel-collapse">';
+					var videos = result.data;//视频集合
+					for(var i=0;i<videos.length;i++){
+						var video_id = videos[i].id;//视频ID
+						var video_name = videos[i].name;//视频名字
+						str+='	<div class="panel-body">';
+						str+='		<a href="video.jsp?videoId='+video_id+'">'+video_name;
+						str+='		<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button>';
+						str+='		</a>';
+						str+='	</div>';
+					}
+					str+='	</div>';
+					//将视频列表添加到当前章节div中
+					$("#chapter"+chapter_id).append(str);
+				}
+			}
+		});
+	};
+	
+// 	function loadVideo(chapter_id){//加载视频信息 错误的
+// // 		$('.panel chapter').remove();
+// 		$(".panel-collapse").remove();
+// 		alert(chapter_id);
+		
+// 		$.ajax({
+// 			url:"http://localhost:8883/video/chapter/"+chapter_id,
+// 			type:"get",
+// 			dataType:"json",
+// 			success:function(result){
+// 				var chapters = result.data;
+// 				console.log(chapters);
+// 				var str = '';
+// 				str += '<div  class="panel-collapse">';
+// 				for (var i = 0; i < chapters.length; i++) {
+// 					var chapter = chapters[i];
+// 					var chapter_name = chapter.name;
+// 					var chapter_id = chapter.id;
+// 					str += '	<div class="panel-body">';
+// 					str += '		<a href="video.jsp">'+chapter_name+'';
+// 					str += '			<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button></a>';
+// 					str += '	</div>';
+// 				}
+// 				str += '	</div>';
+// 				console.log(str);
+// 				$("#chapter"+chapter_id).append(str);
+// 			}
+// 		});
+		
+// // 		$.ajax({
+// // 			url:"http://localhost:8883/video/chapter/"+chapter_id,
+// // 			type:"get",
+// // 			dataType:"json",
+// // 			success:function(result){
+// // 				if(result.status==1){//有结果
+// // 					//拼一个视频列表
+// // 					var str = '';
+// // 					str+='	<div class="panel-collapse">';
+// // 					var videos = result.data;//视频集合
+// // 					for(var i=0;i<videos.length;i++){
+// // 						var video_id = videos[i].id;//视频ID
+// // 						var video_name = videos[i].name;//视频名字
+// // 						str+='	<div class="panel-body">';
+// // 						str+='		<a href="video.jsp?videoId='+video_id+'">'+video_name;
+// // 						str+='		<button class="r moco-btn moco-btn-blue preview-btn">开始学习</button>';
+// // 						str+='		</a>';
+// // 						str+='	</div>';
+// // 					}
+// // 					str+='	</div>';
+// // 					//将视频列表添加到当前章节div中
+// // 					$("#chapter"+chapter_id).append(str);
+// // 				}
+// // 			}
+// // 		});
+		
+// 	}
+	
+	//paraName 获取url参数
+	function getUrlParam(paraName) {
+		var url = document.location.toString();
+		var arrObj = url.split("?");
+		if (arrObj.length > 1) {
+			var arrPara = arrObj[1].split("&");
+			var arr;
+			for (var i = 0; i < arrPara.length; i++) {
+				arr = arrPara[i].split("=");
+				if (arr != null && arr[0] == paraName) {
+					return arr[1];
+				}
+			}
+			return "";
+		} else {
+			return "";
+		}
+	}
+</script>
 </html>

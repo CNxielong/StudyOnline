@@ -5,11 +5,13 @@ import java.util.List;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.InsertProvider;
+import org.apache.ibatis.annotations.Many;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.apache.ibatis.annotations.UpdateProvider;
+import org.apache.ibatis.mapping.FetchType;
 import org.apache.ibatis.type.JdbcType;
 
 import cn.xdl.ovls.course.entity.Course;
@@ -86,6 +88,35 @@ public interface CourseMapper {
         @Result(column="learn_time", property="learnTime", jdbcType=JdbcType.INTEGER)
     })
     Course selectByPrimaryKey(Integer id);
+    
+    /**
+     * 根据ID查询课程信息(包含章节列表)
+     */
+    @Select({
+        "select",
+        "id, name, intro, learn_count, difficulty, score, image, publish_time, price, ",
+        "subject_id, direction_id, learn_time",
+        "from course",
+        "where id = #{id,jdbcType=INTEGER}"
+    })
+    @Results({
+        @Result(column="id", property="id", jdbcType=JdbcType.INTEGER, id=true),
+        @Result(column="name", property="name", jdbcType=JdbcType.VARCHAR),
+        @Result(column="intro", property="intro", jdbcType=JdbcType.VARCHAR),
+        @Result(column="learn_count", property="learnCount", jdbcType=JdbcType.INTEGER),
+        @Result(column="difficulty", property="difficulty", jdbcType=JdbcType.VARCHAR),
+        @Result(column="score", property="score", jdbcType=JdbcType.INTEGER),
+        @Result(column="image", property="image", jdbcType=JdbcType.VARCHAR),
+        @Result(column="publish_time", property="publishTime", jdbcType=JdbcType.TIMESTAMP),
+        @Result(column="price", property="price", jdbcType=JdbcType.INTEGER),
+        @Result(column="subject_id", property="subjectId", jdbcType=JdbcType.INTEGER),
+        @Result(column="direction_id", property="directionId", jdbcType=JdbcType.INTEGER),
+        @Result(column="learn_time", property="learnTime", jdbcType=JdbcType.INTEGER),
+        @Result(property="chapters",javaType=List.class,column="id", //column用于指定要查询的参数
+        	many=@Many(select="cn.xdl.ovls.course.dao.ChapterMapper.selectByCourseId",//指定对应的要查询SQL的方法
+        		fetchType=FetchType.EAGER))//饥饿加载
+    })
+    Course selectDetailChaptersByPrimaryKey(Integer id);
 
     /**
      * 查询免费好课 根据课程得分降序

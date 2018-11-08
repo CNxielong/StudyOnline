@@ -12,6 +12,7 @@ import com.github.pagehelper.PageHelper;
 
 import cn.xdl.ovls.course.CourseServiceBootApplication;
 import cn.xdl.ovls.course.dao.CourseMapper;
+import cn.xdl.ovls.course.entity.Chapter;
 import cn.xdl.ovls.course.entity.Course;
 
 @RunWith(SpringRunner.class)
@@ -27,6 +28,15 @@ public class TestCourseMapper {
 		List<Course> List = courseMapper.selectFreePriceCourse();
 		for (Course course : List) {
 			System.out.println(course);
+		}
+	}
+	
+	@Test
+	public void test2(){
+		Course course = courseMapper.selectDetailChaptersByPrimaryKey(1);
+		List<Chapter> chapters = course.getChapters(); 
+		for (Chapter chapter : chapters) {
+			System.out.println(chapter.getId()+":"+chapter.getName());
 		}
 	}
 }

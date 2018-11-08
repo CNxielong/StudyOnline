@@ -1,5 +1,7 @@
 package cn.xdl.ovls.course.controller.test;
 
+import java.math.BigDecimal;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -50,6 +52,15 @@ public class TestCourseController {
 		//获取返回结果内容打印输出
 		String body = mvcResult.getResponse().getContentAsString();
 		System.out.println("查询结果是"+body);
-
+	}
+	
+	@Test
+	public void test3() throws Exception{
+		MockHttpServletRequestBuilder getRequest = MockMvcRequestBuilders.get("/course/{id}", 2);//设置ID的值为2
+		//执行请求,获取返回结果
+		MvcResult mvcResult = mockmvc.perform(getRequest).andReturn();
+		//获取返回结果内容打印输出
+		String body = mvcResult.getResponse().getContentAsString();
+		System.out.println("查询结果是"+body);
 	}
 }

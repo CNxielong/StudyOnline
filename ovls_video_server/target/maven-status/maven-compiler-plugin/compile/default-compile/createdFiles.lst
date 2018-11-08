@@ -1,0 +1,12 @@
+cn\xdl\ovls\video\druid\DruidConfig.class
+cn\xdl\boot\video\entity\Video.class
+cn\xdl\boot\video\entity\ResponseResult.class
+cn\xdl\boot\video\service\VideoService.class
+cn\xdl\ovls\video\druid\DruidStatViewServlet.class
+cn\xdl\boot\video\controller\VideoController.class
+cn\xdl\ovls\video\util\AjaxDomainFilter.class
+cn\xdl\boot\video\VideoServerBootApplicaiton.class
+cn\xdl\boot\video\dao\VideoSqlProvider.class
+cn\xdl\boot\video\dao\VideoMapper.class
+cn\xdl\boot\video\service\VideoServiceImpl.class
+cn\xdl\ovls\video\druid\DruidStatFilter.class
