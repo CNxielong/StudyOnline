@@ -44,7 +44,6 @@
 			}
 		</style>
 	</head>
-	
 	<body>
 		<%@include file="head.jsp"%>		
 <!--========================轮播图==============================-->
@@ -85,404 +84,16 @@
 						</div>
 					</div>
 
-					<div class="width_220 float_l height460 posi_absolute backg_jqian padding_t5 bianshou">
-						<div class="width100 float_l tab_qiehuan ">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>前端开发</span> <span class="float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg15">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">HTML/CSS</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">JavaScript</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">jQuery</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Html5</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">CSS3</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Node.js</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">AngularJS</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Bootstrap</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">React</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Sass/Less</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Vue.js</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">WebApp</a>
-											</li>
-											<li>/</li>
-										</ul>
-									</div>
+					<div id="direction_menu" class="width_220 float_l height460 posi_absolute backg_jqian padding_t5 bianshou">
+						
+						<!-- 动态生成的页面 -->
 
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | 前端JavaScript面试技巧
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | Vue2.0+Node.js+MongoDB全栈打造商城系统
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | node建站攻略（二期）——网站升级
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="width100 float_l tab_qiehuan">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>后端开发</span> <span class="float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg16">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">PHP</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Java</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Python</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">C</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">C++</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Go</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">C#</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Ruby</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | JAVA实现对称加密
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | JAVA入门
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | JAVA高级教程
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="width100 float_l tab_qiehuan">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>移动开发</span> <span class="float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg17">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">Android</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">iOS</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Unity3D</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Cocos2d-x</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | Android-Service系列之Notification综合应用
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | iOS界面优化
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | Android网络与数据存储
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="width100 float_l tab_qiehuan">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>数据库</span> <span class="float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg18">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">MySQL</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">MongoDB</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Oracle</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">SQLServer</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | ps入门教程Ⅱ-路径
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | 手机UI设计基础-尺寸
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | PS入门基础-魔幻调色
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="width100 float_l tab_qiehuan">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>云计算&amp;大数据</span> <span class=" float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg16">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">大数据</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">云计算</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | ps入门教程Ⅱ-路径
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | 手机UI设计基础-尺寸
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | PS入门基础-魔幻调色
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="width100 float_l tab_qiehuan">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>运维&amp;测试</span> <span class="float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg15">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">测试</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">Linux</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | ps入门教程Ⅱ-路径
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | 手机UI设计基础-尺寸
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | PS入门基础-魔幻调色
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="width100 float_l tab_qiehuan ">
-							<div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">
-								<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">
-									<span>UI设计</span> <span class="float_r">></span>
-								</div>
-							</div>
-							<div class="width_700 float_l lunbofenlei dis_none img_backg17">
-								<div class="width100 float_l padding40">
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>
-										<ul class="width100 ul_lis float_l">
-											<li>
-												<a href="course_list.jsp">动画特效</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">APPUI设计</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">设计工具</a>
-											</li>
-											<li>/</li>
-											<li>
-												<a href="course_list.jsp">设计基础</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="width100 float_l margin_b40">
-										<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>
-										<ul class="width100 ul_lis float_l">
-											<li class="width100 float_l margin_b15">
-												<a>课程 | ps入门教程Ⅱ-路径
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | 手机UI设计基础-尺寸
-												</a>
-											</li>
-											<li class="width100 float_l margin_b15">
-												<a>课程 | PS入门基础-魔幻调色
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
+					
 					</div>
 				</div>
 			</div>
 		</div>
-		<script>
-			$('.tab_qiehuan').hover(
-				function() {
-					$(this).children(".bianhuabeijing").css("background-color",
-						"#8a8f93").next().css("display", "block")
-				},
-				function() {
-					$(this).children(".bianhuabeijing").css("background-color",
-						"#a9aaae").next().css("display", "none")
-				});
-		</script>
+		
 
 		<script type="text/javascript">
 			jQuery(".focusBox").slide({
@@ -849,10 +460,22 @@
 
 	<%@include file="footer.jsp"%>
 	</body>
+	
 	<script type="text/javascript">
-	$(function(){//默认加载
+	$(function(){//默认加载,在HTML DOM加载完成之后加载
 		//加载免费好课
 		loadFreeCourse();
+		//加载方向信息
+		loadDirection();
+// 		$('.tab_qiehuan').hover(
+// 			function() {
+// 				$(this).children(".bianhuabeijing").css("background-color",
+// 					"#8a8f93").next().css("display", "block")
+// 			},
+// 			function() {
+// 			$(this).children(".bianhuabeijing").css("background-color",
+// 				"#a9aaae").next().css("display", "none")
+// 		});
 	});
 	
 	//加载免费好课
@@ -893,5 +516,90 @@
 			}
 		});
 	};
+	
+	
+	function loadDirection(){
+		$.ajax({
+			url:'http://localhost:8882/direction',
+			dataTpye:'json',
+			type:'get',
+			async:false,
+			success:function(result){
+// 				console.log(result);
+				var directions = result.data;
+				for (var i = 0; i < directions.length; i++) {
+					var direction = directions[i];
+					var direction_id =  direction.id;//方向ID
+					var direction_name =  direction.name;//方向名称
+					var subjects = direction.subjects;//方向包含的学科集合信息
+					
+					str = '';
+					str += ' <div class="width100 float_l tab_qiehuan ">';
+					str += ' <div class="width100 float_l text_c height64 line_hei64 color_white bianhuabeijing backg_jqian padding_lr20">';
+					str += ' 	<div class="width100 float_l text_l height64 line_hei64 color_white border_b_baise fon_siz16">';
+					str += ' 		<span>'+direction_name+'</span> <span class="float_r">></span>';
+					str += ' 	</div>';
+					str += ' </div>';
+					str += ' <div class="width_700 float_l lunbofenlei dis_none img_backg15">';
+					str += ' 	<div class="width100 float_l padding40">';
+					str += ' 		<div class="width100 float_l margin_b40">';
+					str += ' 			<span class="width100 color_shenred fon_siz16 float_l margin_b20">分类目录</span>';
+					str += ' 			<ul class="width100 ul_lis float_l">';
+					
+// 					console.log("subjects:");
+// 					console.log(subjects);
+					for (var j = 0; j < subjects.length; j++) {
+						var subject = subjects[j];
+// 						console.log("subject:");
+// 						console.log(subject);
+						var subject_name = subject.name;
+						var subject_id = subject.id;
+						str += ' 				<li>';
+						str += ' 					<a href="course_list.jsp?direction_id='+direction_id+'&subject_id='+subject_id+'">'+subject.name+'</a>';
+						str += ' 				</li>';
+						str += ' 				<li>/</li>';
+					}
+					
+					str += ' 			</ul>';
+					str += ' 		</div>';
+
+					str += ' 		<div class="width100 float_l margin_b40">';
+					str += ' 			<span class="width100 color_shenred fon_siz16 float_l margin_b20">推荐</span>';
+					str += ' 			<ul class="width100 ul_lis float_l">';
+					str += ' 				<li class="width100 float_l margin_b15">';
+					str += ' 					<a>课程 | 前端JavaScript面试技巧';
+					str += ' 					</a>';
+					str += ' 				</li>';
+					str += ' 				<li class="width100 float_l margin_b15">';
+					str += ' 					<a>课程 | Vue2.0+Node.js+MongoDB全栈打造商城系统';
+					str += ' 					</a>';
+					str += ' 				</li>';
+					str += ' 				<li class="width100 float_l margin_b15">';
+					str += ' 					<a>课程 | node建站攻略（二期）——网站升级';
+					str += ' 					</a>';
+					str += ' 				</li>';
+					str += ' 			</ul>';
+					str += ' 		</div>';
+					str += ' 	</div>';
+					str += ' </div>';
+					str += ' </div>';
+				$('#direction_menu').append(str);
+				}
+				
+				$('.tab_qiehuan').hover(
+						function() {
+							$(this).children(".bianhuabeijing").css("background-color",
+								"#8a8f93").next().css("display", "block")
+						},
+						function() {
+							$(this).children(".bianhuabeijing").css("background-color",
+								"#a9aaae").next().css("display", "none")
+						});
+				
+			}
+		});
+	}
+	
 	</script>
+	
 </html>

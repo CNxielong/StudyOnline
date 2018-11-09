@@ -25,7 +25,8 @@
 	}
 	
 	.all_course a {
-		color: #000;
+/* 		color: #000; */
+		color: #02A1E9;
 		font-size: 16px;
 		font-weight: 700;
 		text-decoration: none;
