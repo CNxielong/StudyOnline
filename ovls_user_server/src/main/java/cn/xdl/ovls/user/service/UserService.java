@@ -17,5 +17,15 @@ public interface UserService {
 	 * */
 //	public ResponseResult register(String name,String password);
 	
+	/**
+	 * 
+	 * @Title: UserService.java  
+	 * @Description: TODO(检测登录是否有效)   
+	 * @param: @param token
+	 * @param: @return      
+	 * @return: ResponseResult      
+	 */
+	public ResponseResult checkToken(String token);
+	
 	
 }

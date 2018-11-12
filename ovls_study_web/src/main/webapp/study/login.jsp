@@ -31,6 +31,7 @@
 					data:{"name":username,"password":password},
 					dataType:"json",
 					success:function(result){
+// 						console.log('result'+result.msg);
 						if(result.status==1){//成功
 							sessionStorage.token=result.data.token;//获取令牌值
 							window.parent.location.reload();//刷新当前页
@@ -39,6 +40,7 @@
 						}else if(result.status==3){//密码错
 							$("#password_error").html(result.msg);
 						}
+						alert(result.msg);
 					}				
 				});
 			}

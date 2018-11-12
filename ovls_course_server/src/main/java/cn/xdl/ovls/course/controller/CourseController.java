@@ -25,14 +25,14 @@ public class CourseController {
 	public ResponseResult loadFreeCourse(//输入top 默认加载五门课程
 			@RequestParam(name="top",required=false,defaultValue="5") int size){
 		ResponseResult result = courseService.loadFreeCourse(size);
-		System.out.println(result);
+//		System.out.println(result);
 		return result;
 	}
 	
 	@RequestMapping(value="/{id}",method=RequestMethod.GET)
 	public ResponseResult loadCourse(@PathVariable("id") int id){//参数变量 /course/1
 		ResponseResult result = courseService.loadCourseDetailChapters(id);
-		System.out.println(result);
+//		System.out.println(result);
 		return result;
 	}
 	

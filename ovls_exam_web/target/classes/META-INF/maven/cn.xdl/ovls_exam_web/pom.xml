@@ -3,8 +3,7 @@
   <groupId>cn.xdl</groupId>
   <artifactId>ovls_exam_web</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-   <parent>
+  <parent>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-parent</artifactId>
 	<version>1.4.7.RELEASE</version>
@@ -23,42 +22,27 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		
 		<!-- mvc -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
-		<!-- jstl -->
+		<!-- themyleaf -->
 		<dependency>
-		  <groupId>jstl</groupId>
-		  <artifactId>jstl</artifactId>
-		  <version>1.2</version>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-		
-		<!-- jsp api -->
+		<!-- 启用非严格html5格式检查 -->
 		<dependency>
-		  <groupId>org.apache.tomcat.embed</groupId>
-		  <artifactId>tomcat-embed-jasper</artifactId>
+		    <groupId>net.sourceforge.nekohtml</groupId>
+		    <artifactId>nekohtml</artifactId>
 		</dependency>
-		
 		<!-- 热部署 -->
   		<dependency>
 		  <groupId>org.springframework.boot</groupId>
 		  <artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-
-		<!-- thymeleaf -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-		<!-- 启用thymeleaf非严格html5检查 -->
-		<dependency> 
-			<groupId>net.sourceforge.nekohtml</groupId> 
-			<artifactId>nekohtml</artifactId> 
-		</dependency> 
+		
   </dependencies>
   
 </project>

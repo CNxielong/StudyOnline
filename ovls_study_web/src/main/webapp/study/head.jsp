@@ -144,7 +144,7 @@
 					<a href="index.jsp">所有课程</a>
 				</div>
 				<div class="course_center">  
-					<a id="sgy_course" href="${pageContext.request.contextPath}/exam/home.html">在线测评</a>
+					<a id="sgy_course" href="http://localhost:7778/exam/home.html">在线测评</a>
 				</div>
 				<div class="persional_center">
 					<a id="sgy_usercenter" href="user_center.jsp">个人中心</a>

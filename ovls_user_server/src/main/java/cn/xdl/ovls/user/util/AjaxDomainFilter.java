@@ -23,7 +23,7 @@ public class AjaxDomainFilter implements Filter{
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		System.out.println("--------AjaxDomainFilter-----------");
+		System.out.println("------UserServer--AjaxDomainFilter-----------");
 		//设置允许跨域响应的参数
 		HttpServletResponse httpRresponse = (HttpServletResponse)response;
 		httpRresponse.setHeader("Access-Control-Allow-Origin", "*");

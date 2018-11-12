@@ -21,11 +21,14 @@ public class UserController {
 	@RequestMapping(value="/user/token",method=RequestMethod.POST)
 	public ResponseResult createToken(String name,String password,HttpSession session){
 		ResponseResult result = userServiceImpl.createToken(name, password);
-		//如果登录成功 放入TOKEN
-		if(result.getStatus() ==1 ){
-			Map<String, Object> data = (Map<String, Object>)result.getData();//UserServiceImpl登陆成功后结果result.data放入一个MAP
-			session.setAttribute("token", data.get("token"));
-		}
+		return result;
+	}
+	
+	@RequestMapping(value="/user/token",method=RequestMethod.GET)
+	public ResponseResult checkToken(String token){
+		System.out.println("Token校验开始:"+token);
+		ResponseResult result = userServiceImpl.checkToken(token);
+		System.out.println("Token校验结束:"+token+"  "+result);
 		return result;
 	}
 	

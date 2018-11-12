@@ -25,8 +25,9 @@ public class TokenManagerTask {
 	
 	@Scheduled(cron="1/5 * * * * ?")
 	public void manager(){
-	//	System.out.println("定时清除过期令牌");
+//		System.out.println("定时清除过期令牌");
 		Map<String, Token> tokenMap = tokenManager.tokenMap;
+//		System.out.println("tokenMap:"+tokenMap);
 		for(Entry<String, Token> entiy : tokenMap.entrySet()) {  
 			String stoken = entiy.getKey();  
 		    Token token = entiy.getValue();  

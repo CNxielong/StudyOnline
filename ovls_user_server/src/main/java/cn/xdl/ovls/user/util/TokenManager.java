@@ -44,7 +44,7 @@ public class TokenManager {
         Token token = new Token();  
         token.setUserId(userId); 
         token.setLastOperate(new Date());  
-        token.setExpired(new Date(token.getLastOperate().getTime() + 1 * 60 * 1000));  
+        token.setExpired(new Date(token.getLastOperate().getTime() + 2 * 60 * 1000));  
   
         tokenMap.put(stoken, token);  
     }  
@@ -56,7 +56,7 @@ public class TokenManager {
     public void updateLastOperate(String stoken) {  
         Token token = tokenMap.get(stoken);  
         token.setLastOperate(new Date());  
-        token.setExpired(new Date(token.getLastOperate().getTime() + 1 * 60 * 1000));  
+        token.setExpired(new Date(token.getLastOperate().getTime() + 2 * 60 * 1000));  
     }  
  
 }  

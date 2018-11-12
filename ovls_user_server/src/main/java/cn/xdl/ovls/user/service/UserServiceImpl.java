@@ -5,12 +5,14 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import cn.xdl.ovls.user.dao.UserMapper;
 import cn.xdl.ovls.user.entity.ResponseResult;
 import cn.xdl.ovls.user.entity.User;
 import cn.xdl.ovls.user.util.Md5Utils;
+import cn.xdl.ovls.user.util.TokenManager;
 //import cn.xdl.ovls.user.util.Md5Utils;
 //import cn.xdl.ovls.user.util.TokenUtil;
 import cn.xdl.ovls.user.util.TokenUtil;
@@ -18,9 +20,12 @@ import cn.xdl.ovls.user.util.TokenUtil;
 @Service
 public class UserServiceImpl implements UserService {
 
-	@Resource
+	@Autowired
 	private UserMapper userDao;
-
+	
+	@Autowired
+	private TokenManager tokenManager;
+	
 	@Override
 	public ResponseResult createToken(String name, String password) {
 		ResponseResult result = new ResponseResult();
@@ -42,6 +47,8 @@ public class UserServiceImpl implements UserService {
 				result.setMsg("登录成功");
 				// 生成一个token
 				String token = TokenUtil.generatorToken(user.getId());
+//				System.out.println("userService获得的Token:"+token);
+				tokenManager.addToken(token, user.getId());
 				Map<String, Object> data = new HashMap<String, Object>();//放入一个Map
 				data.put("token", token);
 				result.setData(data);
@@ -51,30 +58,21 @@ public class UserServiceImpl implements UserService {
 		return result;
 	}
 
-	// @Override
-	// public ResponseResult register(String name, String password) {
-	// ResponseResult result = new ResponseResult();
-	// User user = new User();
-	// user.setName(name);
-	//
-	// String s1 = String.valueOf(Math.random()*10000);
-	// String salt = s1.substring(0, s1.indexOf("."));
-	// user.setSalt(salt);//加盐
-	// user.setPassword(Md5Utils.md5(password+user.getSalt()));
-	//
-	// //判断用户名是否已经重复
-	// User userSel = userDao.selectByName(name);
-	// if( userSel != null ){//用户名已存在
-	// result.setStatus(2);
-	// result.setMsg("用户已存在");
-	// }else{//用户不存在
-	// userDao.insert(user);//插入用户
-	// result.setStatus(1);
-	// result.setMsg("注册成功");
-	// result.setData(user);
-	// }
-	//
-	// return result;
-	// }
+	@Override
+	public ResponseResult checkToken(String token) {
+		ResponseResult result = new ResponseResult();
+		boolean ok = tokenManager.validate(token);
+		if(ok){//token通过验证
+			result.setStatus(1);
+			result.setMsg("token令牌合法");
+			//将最后一次操作时间更新下
+			tokenManager.updateLastOperate(token);
+		}else{
+			result.setStatus(2);
+			result.setMsg("token不合法");
+		}
+		return result;
+	}
+
 
 }

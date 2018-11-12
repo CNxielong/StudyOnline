@@ -81,7 +81,7 @@
 			<!-- logo部分 -->
 			<div id="logo" class="logo">
 				<a style="background: url(${pageContext.request.contextPath }/study/img/logo.png) center center no-repeat"
-					href="${pageContext.request.contextPath }/study/index.jsp" target="_self" class="hide-text" title="首页">兄弟连</a>
+					href="${pageContext.request.contextPath }/study/index.jsp" target="_self" class="hide-text" title="首页">慕课网</a>
 			</div>
 
 			<button type="button"
