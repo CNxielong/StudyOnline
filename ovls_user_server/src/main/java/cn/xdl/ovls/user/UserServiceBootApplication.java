@@ -4,6 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * 
@@ -14,6 +15,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @version V1.0  
  *
  */
+@EnableEurekaServer
 @SpringBootApplication
 @ServletComponentScan //引入组件扫描
 @MapperScan(basePackages="cn.xdl.ovls.user.dao")

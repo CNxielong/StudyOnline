@@ -15,7 +15,7 @@ public interface UserService {
 	 * @param name 姓名
 	 * @param password 密码	
 	 * */
-//	public ResponseResult register(String name,String password);
+	public ResponseResult register(String name,String password);
 	
 	/**
 	 * 

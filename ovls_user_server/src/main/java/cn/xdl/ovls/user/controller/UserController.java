@@ -32,8 +32,8 @@ public class UserController {
 		return result;
 	}
 	
-//	@RequestMapping(value="/user/register",method=RequestMethod.POST)
-//	public ResponseResult register(String name,String password){
-//		return userServiceImpl.register(name, password);
-//	}
+	@RequestMapping(value="/user/register",method=RequestMethod.POST)
+	public ResponseResult register(String name,String password){
+		return userServiceImpl.register(name, password);
+	}
 }

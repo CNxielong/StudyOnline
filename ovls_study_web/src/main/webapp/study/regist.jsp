@@ -6,6 +6,7 @@
 <title>登录页面</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/login2.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
 <div class="login" style="margin-top:50px;">
@@ -77,4 +78,69 @@
 </div>
 
 </body>
+
+<script type="text/javascript">
+	
+	function checkInfo(){
+		var username = $("#user").val();
+		var password = $("#passwd").val();
+		var password2 = $("#passwd2").val();
+		//判断用户输入是否合法 4到16位（字母，数字，下划线，减号）
+		var regUsername = "^[a-zA-Z0-9_-]{4,16}$";
+		var regBlank = new RegExp(regUsername);
+		if(!regBlank.test(username)){//如果不符合校验
+			$("#register_error1").html("用户名只能是4到16位的字母、数字、下划线、减号");
+			return false;
+		}
+		//判断输入是否为null
+		if("null" == username){
+			$("#register_error1").html('用户名不能为NULL等非法字符');
+			return false;
+		}
+		//判断前后面是否一致
+		if(password != password2){
+			$("#register_error1").html('前后密码不一致');
+			return false;
+		}
+		//判断密码是否符合规则
+		var regPass = "^[\w_-]{6,16}$";
+		var regPassword = new RegExp(regPass);
+		if(regPassword.test(password)){//如果不符合校验
+			$("#register_error1").html("密码只能是6到16位的字母、数字、下划线、减号");
+			return false;
+		}
+		return true;
+	}
+
+	function register(){//点击注册按钮触发的事件
+		//清除之前的信息
+		$("#register_error1").html("");
+		$("#register_error2").html("");
+		$("#register_error3").html("");
+		var flag = checkInfo();
+		//获取用户的输入名和密码
+		var username = $("#user").val();
+		var password = $("#passwd").val();
+
+		if(flag){//如果校验通过了
+			$.ajax({
+				url:"http://localhost:8881/user/register",
+				type:"post",
+				data:{"name":username,"password":password},
+				dataType:"json",
+				success:function(result){
+//						console.log('result'+result.msg);
+					if(result.status==1){//成功
+// 						sessionStorage.token=result.data.token;//获取令牌值
+						window.parent.location.reload();//刷新当前页
+						alert(result.msg);
+					}else if(result.status==4){//用户姓名已存在						
+						$("#register_error2").html(result.msg);
+					}
+// 					alert(result.msg);
+				}				
+			});
+		}
+	}
+</script>
 </html>

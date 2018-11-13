@@ -2,6 +2,7 @@ package cn.xdl.ovls.user.service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 import javax.annotation.Resource;
 
@@ -62,10 +63,10 @@ public class UserServiceImpl implements UserService {
 	public ResponseResult checkToken(String token) {
 		ResponseResult result = new ResponseResult();
 		boolean ok = tokenManager.validate(token);
-		if(ok){//token通过验证
+		if(ok){// token通过验证
 			result.setStatus(1);
 			result.setMsg("token令牌合法");
-			//将最后一次操作时间更新下
+			// 将最后一次操作时间更新下
 			tokenManager.updateLastOperate(token);
 		}else{
 			result.setStatus(2);
@@ -74,5 +75,44 @@ public class UserServiceImpl implements UserService {
 		return result;
 	}
 
+	@Override
+	public ResponseResult register(String name, String password) {
+		// TODO Auto-generated method stub
+		ResponseResult result = new ResponseResult();
+		User user = new User();
+		// 判断name是否已经存在
+		boolean isExists = NameIsExists(name);
+		if(isExists){// 如果冲突
+			result.setMsg("姓名已经存在了");
+			result.setStatus(4);
+		}else{
+			user.setName(name);
+			String salt = UUID.randomUUID().toString().substring(0, 8);//私盐 UUID随机数前八位
+			user.setSalt(salt);
+			user.setPassword(Md5Utils.encryptPassword(password, salt));//MD5加密
+			userDao.insert(user);
+			result.setMsg("注册成功");
+			result.setStatus(1);
+			result.setData(user);
+		}
+		return result;
+	}
 
+	/**
+	 * 
+	 * @Title: UserServiceImpl.java  
+	 * @Description: TODO(检测Name是否有冲突)   
+	 * @param: @param name
+	 * @param: @return      
+	 * @return: boolean      
+	 * @throws
+	 */
+	public boolean NameIsExists(String name){
+		User user = userDao.selectByName(name);
+		if(user != null){//有冲突
+			return true;
+		}
+		return false;//没有冲突
+	}
+	
 }
