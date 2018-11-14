@@ -467,15 +467,6 @@
 		loadFreeCourse();
 		//加载方向信息
 		loadDirection();
-// 		$('.tab_qiehuan').hover(
-// 			function() {
-// 				$(this).children(".bianhuabeijing").css("background-color",
-// 					"#8a8f93").next().css("display", "block")
-// 			},
-// 			function() {
-// 			$(this).children(".bianhuabeijing").css("background-color",
-// 				"#a9aaae").next().css("display", "none")
-// 		});
 	});
 	
 	//加载免费好课

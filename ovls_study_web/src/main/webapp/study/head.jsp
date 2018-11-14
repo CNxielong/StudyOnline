@@ -159,7 +159,7 @@
 		<div class="float_r">
 			<div class="float_l top_input">
 				<input class="posi_relative" type="text" name="" id="search_id" placeholder="请输入..."> 
-				<img class="img_sousuo bianshou" src="img/uiz4.png" onclick="javascript:window.location='search.jsp'">
+				<img class="img_sousuo bianshou" src="img/uiz4.png" onclick="search()">
 			</div>
 			
 		
@@ -200,20 +200,23 @@ $(document).on('click', '#example1', function() {
  */
 
 	
-$(document).on('click', '#example2', function() {
-	 layer.open({ 
-       type : 2,
-       border : [1 , 1 , 'gray', true],  
-       shade : [0.5 , '#000' , true],  
-       shadeClose:true,
-       title : false,  
-       content:'login.jsp',
-       area : ['450px' , '450px'],  
-       offset : ['100px',''],  
-   }); 
-	 
-	 
+
+	$(document).on('click', '#example2', function() {
+		layer.open({
+			type : 2,
+			border : [ 1, 1, 'gray', true ],
+			shade : [ 0.5, '#000', true ],
+			shadeClose : true,
+			title : false,
+			content : 'login.jsp',
+			area : [ '450px', '450px' ],
+			offset : [ '100px', '' ],
+		});
+
 	});
-
-
+	
+	function search(){
+		var searchInfo = $('#search_id').val();
+		window.location='search.jsp?search='+searchInfo+'';
+	}
 </script>

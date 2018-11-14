@@ -4,6 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 
@@ -14,6 +15,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @version V1.0  
  *
  */
+@EnableDiscoveryClient
 @SpringBootApplication
 @MapperScan(basePackages="cn.xdl.ovls.course.dao")
 @ServletComponentScan //引入组件扫描

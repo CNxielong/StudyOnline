@@ -2,6 +2,7 @@ package cn.xdl.ovls;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version V1.0  
  *
  */
+@EnableDiscoveryClient//启用eureka服务查找和注册
 @SpringBootApplication
 public class StudyWebBootApplication {
 

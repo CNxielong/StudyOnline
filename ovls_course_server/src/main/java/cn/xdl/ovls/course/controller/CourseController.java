@@ -36,4 +36,9 @@ public class CourseController {
 		return result;
 	}
 	
+	@RequestMapping(value="/search",method=RequestMethod.GET)
+	public ResponseResult searchCourses(@RequestParam(value="search") String nameOrIntro) {
+		ResponseResult result = courseService.searchCourses(nameOrIntro);
+		return result;
+	}
 }

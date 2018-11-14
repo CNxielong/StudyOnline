@@ -68,4 +68,20 @@ public class CourseServiceImpl implements CourseService {
 		return result;
 	}
 
+
+	@Override
+	public ResponseResult searchCourses(String nameOrIntro) {
+		List<Course> coursesList = courseMapper.searchCourses(nameOrIntro);
+		ResponseResult result = new ResponseResult();
+		if(0 == coursesList.size()){//如果没取到数据
+			result.setStatus(2);//数据不存在
+			result.setMsg("未找到记录");
+		}else{
+			result.setStatus(1);//数据存在
+			result.setMsg("查找成功");
+			result.setData(coursesList);
+		}
+		return result;
+	}
+
 }
