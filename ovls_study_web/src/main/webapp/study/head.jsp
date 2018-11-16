@@ -150,7 +150,7 @@
 					<a id="sgy_usercenter" href="user_center.jsp">个人中心</a>
 				</div>
 				<div class="index">
-					<a id="sgy_delete" href="#">安全退出</a>
+					<a id="sgy_delete" href="http://localhost:7777/study/index.jsp" onclick="exit()">安全退出</a>
 				</div>
 			</div>
 		</div>
@@ -219,4 +219,8 @@ $(document).on('click', '#example1', function() {
 		var searchInfo = $('#search_id').val();
 		window.location='search.jsp?search='+searchInfo+'';
 	}
+	function exit(){
+		alert("安全退出");
+	}
+	
 </script>

@@ -501,6 +501,7 @@ document.write(mystr+&quot;&lt;br&gt;&quot;);//输出hello后，输出一个换�
 					str += '</div>';
 				$('#course_chapters').append(str);
 				}// in循环
+				$("#course_intro").html(course.intro);
 			}
 		})
 	};

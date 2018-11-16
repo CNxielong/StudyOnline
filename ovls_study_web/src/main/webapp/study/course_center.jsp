@@ -206,7 +206,7 @@ left: -15px;
 		<div class="bg-other user-head-info">
 			<div class="user-info">
 				<h3 class="user-name clearfix">
-					<span>大兄弟</span>
+					<span>谢龙</span>
 				</h3>
 				<!--25-->
 				<p class="about-info">
